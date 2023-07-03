@@ -1,113 +1,182 @@
-import Image from 'next/image'
+"use client";
 
-export default function Home() {
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react";
+import Hero from "@/components/elements/Hero/Hero";
+import VideoContainer from "@/components/elements/Video/VideoContainer";
+import MidHeading from "@/components/elements/Misc/MidHeading";
+import Inverted from "@/components/elements/Inverted/Inverted";
+import { descriptions } from "@/assets/data/appData";
+import Courses from "@/components/elements/Courses/Courses";
+import CourseDetails from "@/components/elements/Course_Details/CourseDetails";
+import Logo from "@/components/elements/Misc/Logo";
+import Skater from "@/components/elements/Misc/svg/Skater";
+
+const Home = () => {
+  const {
+    c_title,
+    c_subTitle,
+    c_link,
+    c_linkText,
+    c_paraOne,
+    c_paraTwo,
+    c_image,
+  } = descriptions.college;
+
+  const {
+    ce_title,
+    ce_subTitle,
+    ce_link,
+    ce_linkText,
+    ce_paraOne,
+    ce_paraTwo,
+    ce_image,
+  } = descriptions.coe;
+  const {
+    d_title,
+    d_subTitle,
+    d_link,
+    d_linkText,
+    d_paraOne,
+    d_paraTwo,
+    d_image,
+  } = descriptions.director;
+
+  const targetRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({ target: targetRef });
+
+  const scaleAndTranslate = useTransform(
+    scrollYProgress,
+    [0.05, 0.11],
+    [
+      "scale(1) translateX(0%) translateY(0%)",
+      "scale(1.5) translateX(-17.38%) translateY(55.25%)",
+      // "scale(1.42) translateX(-18.4%) translateY(55.75%)",
+    ]
+  );
+
+  const bgColor = useTransform(
+    scrollYProgress,
+    [0.45, 0.53],
+    ["#EEEAEA", "#FFFFFF"]
+  );
+
+  const moveSkater = useTransform(
+    scrollYProgress,
+    [0.4, 0.65],
+    ["translateX(-100%)", "translateX(160%)"]
+  );
+
+  const moveSkaterMobile = useTransform(
+    scrollYProgress,
+    [0.3, 0.55],
+    // ["translateX(-110%)", "translateX(120%)"]
+    ["translateX(-100%)", "translateX(200%)"]
+  );
+
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">src/app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <motion.div ref={targetRef}>
+      <Hero />
+      <VideoContainer style={{ transform: scaleAndTranslate }} />
+      <MidHeading
+        type="one"
+        button={true}
+        target="_blank"
+        hyperlink="http://uitshivpuri.rgpv.ac.in/"
+        lineOne="UIT RGPV Shivpuri ,"
+        lineTwo="excellence"
+        linkText="Visit our page"
+      />
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <Inverted
+        style={{ backgroundColor: bgColor }}
+        link={c_link}
+        title={c_title}
+        subTitle={c_subTitle}
+        paraOne={c_paraOne}
+        paraTwo={c_paraTwo}
+        linkText={c_linkText}
+        image={c_image}
+      />
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
+      <MidHeading
+        type="one"
+        button={true}
+        target="_self"
+        hyperlink="#"
+        lineOne="It 's Centre of"
+        lineTwo="Excellence"
+        linkText="Cources"
+      />
+      <Inverted
+        style={{ backgroundColor: bgColor }}
+        link={ce_link}
+        title={ce_title}
+        subTitle={ce_subTitle}
+        paraOne={ce_paraOne}
+        paraTwo={ce_paraTwo}
+        linkText={ce_linkText}
+        image={ce_image}
+      />
+
+      {/* SKATER---------------- */}
+
+      <motion.section
+        style={{ backgroundColor: bgColor }}
+        className="hidden w-full flex-row items-center justify-center overflow-x-hidden pb-[80px] pt-[197px] lg:flex"
+      >
+        <motion.div style={{ transform: moveSkater }}>
+          <Skater />
+        </motion.div>
+      </motion.section>
+
+      <motion.section
+        className="skater-back block w-full flex-row items-center justify-center overflow-x-hidden pt-[100px] pb-[0px] sm:pb-[40px] sm:pt-[145px] md:pb-[80px] md:pt-[197px] lg:hidden"
+      >
+        <motion.div
+          style={{ transform: moveSkaterMobile }}
+          className="w-fit transition-all duration-100 ease-linear"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+          <Skater />
+        </motion.div>
+      </motion.section>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+      <MidHeading
+        className="bg-white"
+        type="two"
+        button={true}
+        target="_blank"
+        hyperlink="#"
+        lineOne="Courses Offered ,"
+        lineTwo="Eminence"
+        linkText="Gallery"
+      />
+      <Courses />
+      <CourseDetails />
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
+      <MidHeading
+        className="bg-white"
+        type="one"
+        button={true}
+        target="_blank"
+        hyperlink="#"
+        lineOne="From Director's"
+        lineTwo="Pen"
+        linkText="Linkedin"
+      />
+      <Inverted
+        style={{ backgroundColor: bgColor }}
+        link={d_link}
+        title={d_title}
+        subTitle={d_subTitle}
+        paraOne={d_paraOne}
+        paraTwo={d_paraTwo}
+        linkText={d_linkText}
+        image={d_image}
+      />
+      <div className="h-[120px] w-full bg-white"></div>
+    </motion.div>
+  );
+};
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
-}
+export default Home;
