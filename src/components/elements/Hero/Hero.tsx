@@ -6,7 +6,7 @@ import Register from "../Misc/Register";
 const Hero = () => {
   return (
     <section
-      className="w-full origin-bottom bg-main pt-[104px]  transition-all duration-700 ease-in-out lg:pt-[160px]"
+      className="w-full origin-bottom bg-main pt-[104px]  primary-transition lg:pt-[160px]"
     >
       <div className="lg:primary-grid primary-container md:flex md:flex-col lg:grid">
         {/* HIDDEN BEFORE lg */}
