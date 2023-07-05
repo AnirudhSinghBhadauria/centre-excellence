@@ -5,7 +5,7 @@ export const descriptions = {
     c_subTitle: "home - coe - rgpv",
     c_linkText: "- View More",
     c_image:
-      "https://cdn.sanity.io/images/aftdl3p2/production/470ca35eec65aea78f95ae6a833b6d25feebfc4f-1920x2188.webp",
+      "https://cdn.sanity.io/images/aftdl3p2/production/aa9c068d0c8a61887e9b6eaf64483e87bd16687d-1920x2221.webp",
     c_paraOne:
       "As per the directives of Government of Madhya Pradesh, University Institute of Technology, Shivpuri, a constituent institute of Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal is established in 2020. The institution presently offers undergraduate programmes in Civil Engineering, Computer Science, Electrical and Electronics Engineering and Mechanical Engineering with an intake of 60 students each. Our main thrust areas are to enhance opportunities for research in areas of high relevance to nations science and technology capabilities.Transforming the institute into a knowledge enterprise through its focus on research and development, industrial consultancy and by establishing efficient and effective mechanisms for managing innovations. This institute will continue to scale up over the next decade to build a technical institute of international repute.",
 
@@ -19,7 +19,7 @@ export const descriptions = {
     ce_subTitle: "coe - uit - shivpuri",
     ce_linkText: "- Courses",
     ce_image:
-      "https://cdn.sanity.io/images/s695h8ei/production/a6ff57ad3962a9fdb8ba4884b38e773e0adbfc78-1340x1550.jpg?w=1920&q=75&fit=clip&auto=format",
+      "https://cdn.sanity.io/images/aftdl3p2/production/2a57d55b63ab7ae87b639ee6b5467b330fbeac90-1920x2216.webp",
     ce_paraOne:
       "UIT RGPV Shivpuri also has a Centre of Excellence that offers specialized programs in Power Engineering and Artificial Intelligence (AI) and Machine Learning (ML). The Power Engineering course focuses on electrical power generation, transmission, and distribution systems. The AI and ML program provides students with the necessary skills to understand and develop intelligent systems using machine learning algorithms and artificial intelligence techniques.",
 
