@@ -39,8 +39,8 @@ const Card = ({
               alt={heading}
               className="h-[340px] w-full rounded-[20px] object-cover object-center transition-transform 
             duration-1000 ease-in-out group-hover:scale-110 lg:h-[427px]"
-              width="500"
-              height="500"
+              width="1200"
+              height="1200"
             />
           </a>
         </div>

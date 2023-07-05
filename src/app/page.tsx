@@ -9,7 +9,6 @@ import Inverted from "@/components/elements/Inverted/Inverted";
 import { descriptions } from "@/assets/data/appData";
 import Courses from "@/components/elements/Courses/Courses";
 import CourseDetails from "@/components/elements/Course_Details/CourseDetails";
-import Logo from "@/components/elements/Misc/Logo";
 import Skater from "@/components/elements/Misc/svg/Skater";
 
 const Home = () => {

@@ -5,7 +5,7 @@ export const descriptions = {
     c_subTitle: "home - coe - rgpv",
     c_linkText: "- View More",
     c_image:
-      "https://cdn.sanity.io/images/s695h8ei/production/a6ff57ad3962a9fdb8ba4884b38e773e0adbfc78-1340x1550.jpg?w=1920&q=75&fit=clip&auto=format",
+      "https://cdn.sanity.io/images/aftdl3p2/production/470ca35eec65aea78f95ae6a833b6d25feebfc4f-1920x2188.webp",
     c_paraOne:
       "As per the directives of Government of Madhya Pradesh, University Institute of Technology, Shivpuri, a constituent institute of Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal is established in 2020. The institution presently offers undergraduate programmes in Civil Engineering, Computer Science, Electrical and Electronics Engineering and Mechanical Engineering with an intake of 60 students each. Our main thrust areas are to enhance opportunities for research in areas of high relevance to nations science and technology capabilities.Transforming the institute into a knowledge enterprise through its focus on research and development, industrial consultancy and by establishing efficient and effective mechanisms for managing innovations. This institute will continue to scale up over the next decade to build a technical institute of international repute.",
 
@@ -33,7 +33,7 @@ export const descriptions = {
     d_subTitle: "note - uit - shivpuri",
     d_linkText: "- LinkedIn",
     d_image:
-      "https://cdn.sanity.io/images/s695h8ei/production/a6ff57ad3962a9fdb8ba4884b38e773e0adbfc78-1340x1550.jpg?w=1920&q=75&fit=clip&auto=format",
+      "https://cdn.sanity.io/images/aftdl3p2/production/5d8e57d22e15d5ac568b8a4dfdcfb962e8ae53a6-1920x2219.webp",
     d_paraOne:
       "We are happy to announce that, the Centre of Excellence for Power Engineering and Renewable Energy (CoE-PERE) in UIT RGPV Shivpuri, developed by RGPV, with a fund of around 15 Cr has come up to make Shivpuri a hub of training in power engineering and renewable energy. Along with NPTI Shivpuri, UIT RGPV Shivpuri will impart training to students, teachers, and professionals of the power sector on the smart grid technology and power engineering. In the training, a real-time scenario can be developed for Solar energy and Photovoltaic storage system, Pumped storage, Cyber Security in Smart Grid, Fuel Cell trainer, and Smart Grid integration of all types of power generating systems. Today 10 days of training of trainers from the expert of Lucas- Nuelle, Germany, is completed. Five teachers of UIT RGPV Shivpuri participated in this training.",
 
@@ -52,7 +52,7 @@ export const courses = [
       "COE is a team of skilled knowledge workers whose mission is to provide the organisation they work for with best practices around a particular area of interest.",
     buttonText: "gallery",
     image:
-      "https://cdn.sanity.io/images/s695h8ei/production/03b5cfeb9e02644a4c7b3d6e33a8ce118a709bae-2760x1604.jpg?w=3840&q=75&fit=clip&auto=format",
+      "https://cdn.sanity.io/images/aftdl3p2/production/710bc86407cab80e01a6f796f15c1c9b182adafa-1800x1026.webp",
   },
   {
     // className: "border-r-2 border-l-2 border-gray-300 px-[20px]",
@@ -63,7 +63,7 @@ export const courses = [
       "Its a subfield of electrical engineering that deals with the generation, transmission, and utilization of electric power, and the electrical apparatus connected to such systems.",
     buttonText: "brochure",
     image:
-      "https://cdn.sanity.io/images/s695h8ei/production/03b5cfeb9e02644a4c7b3d6e33a8ce118a709bae-2760x1604.jpg?w=3840&q=75&fit=clip&auto=format",
+      "https://cdn.sanity.io/images/aftdl3p2/production/3022c58d73b8fa40f1162c5de123281a85f81ca0-1500x1357.webp",
   },
   {
     // className: "pl-[20px]",
@@ -74,7 +74,7 @@ export const courses = [
       "It refers to processes and algorithms that are able to simulate human intelligence, including mimicking cognitive functions such as perception and problem solving.",
     buttonText: "brochure",
     image:
-      "https://cdn.sanity.io/images/s695h8ei/production/03b5cfeb9e02644a4c7b3d6e33a8ce118a709bae-2760x1604.jpg?w=3840&q=75&fit=clip&auto=format",
+      "https://cdn.sanity.io/images/aftdl3p2/production/b829fb3c8c40b91ed2b64ab7342b5b61c4cbe5b4-2200x1224.webp",
   },
 ];
 
