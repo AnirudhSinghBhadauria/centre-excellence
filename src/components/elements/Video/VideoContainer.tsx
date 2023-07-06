@@ -21,7 +21,7 @@ const VideoContainer = ({ style }: { style?: object }) => {
               // autoPlay
               muted
               src="https://cdn.api.video/vod/vi6mfqIGTtfgkGPdeK7Eehob/mp4/source.mp4"
-              poster="https://cdn.sanity.io/images/aftdl3p2/production/f2090634edd75b0df4e0af4b2d0565427f9d4706-1280x720.png"
+              poster="https://cdn.sanity.io/images/aftdl3p2/production/a53dde95781406e125f4550c7d330b2c6ff98224-1280x720.webp"
               playsInline
               className="h-auto w-full rounded-[20px]"
             />
@@ -33,7 +33,7 @@ const VideoContainer = ({ style }: { style?: object }) => {
               // autoPlay
               muted
               src="https://cdn.api.video/vod/vi6mfqIGTtfgkGPdeK7Eehob/mp4/source.mp4"
-              poster="https://cdn.sanity.io/images/s695h8ei/production/ed4c4e7707fdab29e15fa04a61e097c1be141d25-1280x720.png"
+              poster="https://cdn.sanity.io/images/aftdl3p2/production/a53dde95781406e125f4550c7d330b2c6ff98224-1280x720.webp"
               playsInline
               className="h-auto w-full rounded-[20px]"
             />

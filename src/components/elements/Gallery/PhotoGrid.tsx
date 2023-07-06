@@ -10,33 +10,36 @@ const PhotoGrid = () => {
           <div className="relative col-span-2">
             <Image
               sizes="(min-width: 1024px) 320px, 33vw"
-              src="https://cdn.sanity.io/images/s695h8ei/production/bf17b875d2a869fca1048a6c50568b7f05c88b86-390x594.jpg?w=384&q=75&fit=clip&auto=format"
+              src="https://cdn.sanity.io/images/aftdl3p2/production/222eebcc97692b70581e887b7dd3e57306f89eb1-600x913.webp"
               className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
-              width={500}
-              height={500}
-              alt="Image-one"
+              width={384}
+              height={585}
+              priority
+              alt="Gallery-Image-One"
             />
             {/* 384 X 585 */}
           </div>
           <div className="col-span-3">
             <Image
               sizes="(min-width: 1024px) 320px, 33vw"
-              src="https://cdn.sanity.io/images/s695h8ei/production/f1e1c63d9bb60b08bfa5df71754ce15029b68e39-630x392.jpg?w=384&q=75&fit=clip&auto=format"
+              src="https://cdn.sanity.io/images/aftdl3p2/production/88c6cb8fbf91406a0bf6c7e8e6916e964c299497-1600x1000.webp"
               className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
-              width={500}
-              height={500}
-              alt="Image-one"
+              width={384}
+              height={239}
+              alt="Gallery-Image-Two"
+              priority
             />
             {/* 384 X 239 */}
           </div>
           <div className="col-span-2">
             <Image
               sizes="(min-width: 1024px) 320px, 33vw"
-              src="https://cdn.sanity.io/images/s695h8ei/production/f1e1c63d9bb60b08bfa5df71754ce15029b68e39-630x392.jpg?w=384&q=75&fit=clip&auto=format"
+              src="https://cdn.sanity.io/images/aftdl3p2/production/4a5e8282919826ef8a37bafd4b756965ce845f7c-1230x768.webp"
               className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
-              width={500}
-              height={500}
-              alt="Image-one"
+              width={630}
+              height={392}
+              alt="Gallery-Image-Three"
+              priority
             />
             {/* 1200 X 800 */}
           </div>
@@ -49,22 +52,24 @@ const PhotoGrid = () => {
                 <div className="basis-1/2">
                   <Image
                     sizes="(min-width: 1024px) 320px, 33vw"
-                    src="https://cdn.sanity.io/images/s695h8ei/production/a1e29d5d65eaa3dc822f43276c7478759f3bb0c8-404x230.jpg?w=640&q=75&fit=clip&auto=format"
+                    src="https://cdn.sanity.io/images/aftdl3p2/production/d42c8ae8adb4b6499bcbe60047362da97b7bb819-1200x686.webp"
                     className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
-                    width={500}
-                    height={500}
-                    alt="Image-one"
+                    width={640}
+                    height={364}
+                    alt="Gallery-Image-Four"
+                    priority
                   />
                   {/* 640 X 364 */}
                 </div>
                 <div className="basis-1/2">
                   <Image
                     sizes="(min-width: 1024px) 320px, 33vw"
-                    src="https://cdn.sanity.io/images/s695h8ei/production/a1e29d5d65eaa3dc822f43276c7478759f3bb0c8-404x230.jpg?w=640&q=75&fit=clip&auto=format"
+                    src="https://cdn.sanity.io/images/aftdl3p2/production/59341d88a84e59cee0243e9f26c124ef3264b99f-1397x800.webp"
                     className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
-                    width={500}
-                    height={500}
-                    alt="Image-one"
+                    width={640}
+                    height={364}
+                    alt="Gallery-Image-Five"
+                    priority
                   />
                   {/* 640 X 364 */}
                 </div>
@@ -73,11 +78,12 @@ const PhotoGrid = () => {
                 <div className="w-[83.33%]">
                   <Image
                     sizes="(min-width: 1024px) 320px, 33vw"
-                    src="https://cdn.sanity.io/images/s695h8ei/production/c8f4092e2f99754bc40f55fa039b70869535d26a-1812x932.jpg?w=640&q=75&fit=clip&auto=format"
+                    src="https://cdn.sanity.io/images/aftdl3p2/production/910424656389a361ce95001bc98bbe2199a264d5-1775x932.webp"
                     className="ml-auto h-auto w-full rounded-[12px]  lg:rounded-[20px]"
                     width={800}
                     height={800}
-                    alt="Image-one"
+                    alt="Gallery-Image-Six"
+                    priority
                   />
                   {/* 640 X 329 */}
                 </div>
@@ -87,23 +93,25 @@ const PhotoGrid = () => {
           <div className="col-span-2 h-full">
             <Image
               sizes="(min-width: 1024px) 320px, 33vw"
-              src="https://cdn.sanity.io/images/s695h8ei/production/8e4eb588d5d9d11477b88ec6bd1f2a2d3a220cd6-394x600.jpg?w=384&q=75&fit=clip&auto=format"
+              src="https://cdn.sanity.io/images/aftdl3p2/production/4ecfbe97fb4650aed88ecf825616df2ad795cab9-551x840.webp"
               className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
-              width={500}
-              height={500}
-              alt="Image-one"
+              width={585}
+              height={384}
+              alt="Gallery-Image-Seven"
+              priority
             />
             {/* 384 X 585 */}
           </div>
           <div className="col-span-4  h-full">
             <div>
-              <Image 
+              <Image
                 sizes="(min-width: 1024px) 320px, 33vw"
-                src="https://cdn.sanity.io/images/s695h8ei/production/c0c5040ca9d5e7274468bf3767be49bc58cf4dd2-866x534.jpg?w=384&q=75&fit=clip&auto=format"
+                src="https://cdn.sanity.io/images/aftdl3p2/production/f641fbb53f668a5e1a8f054d7dc4b81167e64972-1736x969.webp"
                 className="h-auto w-full rounded-[12px] lg:rounded-[20px] translate-y-[-30px] lg:translate-y-[-100px]"
-                width={500}
-                height={500}
-                alt="Image-one"
+                width={800}
+                height={600}
+                alt="IGallery-Image-Eight"
+                priority
               />
               {/* 384 X 237 */}
             </div>
