@@ -30,6 +30,7 @@ const Home = () => {
     ce_paraOne,
     ce_paraTwo,
     ce_image,
+ 
   } = descriptions.coe;
   const {
     d_title,
@@ -39,6 +40,7 @@ const Home = () => {
     d_paraOne,
     d_paraTwo,
     d_image,
+
   } = descriptions.director;
 
   const targetRef = useRef<HTMLDivElement>(null);

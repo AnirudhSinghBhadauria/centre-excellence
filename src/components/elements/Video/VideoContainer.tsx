@@ -15,12 +15,15 @@ const VideoContainer = ({ style }: { style?: object }) => {
         </div>
 
         <section className="relative z-10 col-span-8 h-auto w-full rounded-[20px]">
-          <motion.div style={style} className="hidden lg:block lg:absolute top-0 right-0">
+          <motion.div
+            style={style}
+            className="hidden lg:block lg:absolute top-0 right-0"
+          >
             <video
               loop
-              // autoPlay
+              autoPlay
               muted
-              src="https://cdn.api.video/vod/vi6mfqIGTtfgkGPdeK7Eehob/mp4/source.mp4"
+              src="https://cdn.sanity.io/files/aftdl3p2/production/af54f6e9d167d5afb2edd057d02cfbadfd82e076.webm"
               poster="https://cdn.sanity.io/images/aftdl3p2/production/a53dde95781406e125f4550c7d330b2c6ff98224-1280x720.webp"
               playsInline
               className="h-auto w-full rounded-[20px]"
@@ -30,9 +33,9 @@ const VideoContainer = ({ style }: { style?: object }) => {
           <div className="block lg:hidden">
             <video
               loop
-              // autoPlay
+              autoPlay
               muted
-              src="https://cdn.api.video/vod/vi6mfqIGTtfgkGPdeK7Eehob/mp4/source.mp4"
+              src="https://cdn.sanity.io/files/aftdl3p2/production/af54f6e9d167d5afb2edd057d02cfbadfd82e076.webm"
               poster="https://cdn.sanity.io/images/aftdl3p2/production/a53dde95781406e125f4550c7d330b2c6ff98224-1280x720.webp"
               playsInline
               className="h-auto w-full rounded-[20px]"
@@ -45,9 +48,3 @@ const VideoContainer = ({ style }: { style?: object }) => {
 };
 
 export default VideoContainer;
-
-// https://cdn.sanity.io/images/s695h8ei/production/ed4c4e7707fdab29e15fa04a61e097c1be141d25-1280x720.png
-// scale-[1.5] translate-y-80 -translate-x-60
-// https://firebasestorage.googleapis.com/v0/b/centre-of-excellence-296df.appspot.com/o/VideoPoster.png?alt=media&token=f3816fef-7f8f-4e29-bb9b-1ba6465188e0
-// top-60 left-12 scale-[1.075]
-// 15rem 3rem
