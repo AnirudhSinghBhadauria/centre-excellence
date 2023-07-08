@@ -3,6 +3,11 @@ import { italia, sans } from "../layout";
 import Link from "next/link";
 import MovingArrow from "@/components/elements/Misc/MovingArrow";
 
+export const metadata = {
+  title: 'Centre of Excellence | Contact',
+  description :'If you have any queries or require further information, please do not hesitate to contact us. Our dedicated team is available to assist you and address any concerns you may have. Feel free to reach out to us, and we will be glad to provide the assistance you need.'
+}
+
 const Contact = () => {
   return (
     <section className="h-screen w-full bg-primary primary-transition pt-[104px] sm:pt-[150px] lg:h-auto lg:pb-[80px] lg:pt-[160px]">
@@ -37,10 +42,20 @@ const Contact = () => {
                 Ways to reach us
               </p>
               <div className={`${italia.className} pt-[7px]`}>
-                <Link href="#" className="contact-button mr-[12px]">
+                <Link
+                  href="tel:6267353800"
+                  aria-label="Call Us"
+                  title="Call Us at UIT RGPV Shivpuri - 6267353800"
+                  className="contact-button mr-[12px]"
+                >
                   call us
                 </Link>
-                <Link href="#" className="contact-button">
+                <Link
+                  href="https://goo.gl/maps/GYgk9dMWjXU5WGKb8"
+                  aria-label="Location - UIT RGPV Shivpuri"
+                  className="contact-button"
+                  target="_blank"
+                >
                   location
                 </Link>
               </div>
@@ -51,7 +66,12 @@ const Contact = () => {
               >
                 Email us
               </p>
-              <Link href="#" className={`${italia.className} contact-button`}>
+              <Link
+                href="https://mail.google.com/mail/u/0/?hl=en&tf=cm&fs=1&to=coe.uitshivpuri@rgpv.ac.in"
+                aria-label="Mail Us"
+                target="_blank"
+                className={`${italia.className} contact-button`}
+              >
                 coe.uitshivpuri@rgpv.ac.in
               </Link>
             </section>
@@ -60,7 +80,8 @@ const Contact = () => {
           <div className="flex w-full flex-row justify-center">
             <Link
               className="group flex w-fit flex-row items-center justify-center"
-              href="#"
+              href="/About"
+              aria-label="About Us"
             >
               <p
                 className={`${sans.className} mr-[8px] text-[18px] leading-[26px]`}

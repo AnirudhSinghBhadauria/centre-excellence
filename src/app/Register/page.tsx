@@ -2,7 +2,13 @@ import MovingArrow from "@/components/elements/Misc/MovingArrow";
 import Outline from "@/components/elements/Misc/Outline";
 import React from "react";
 import Link from "next/link";
-import { italia, sans, sarif } from "../layout";
+import { italia, sarif } from "../layout";
+
+export const metadata = {
+  title: "Centre of Excellence | Register",
+  description: 'Enroll in our courses today and unlock a world of knowledge and skills. Register to join our diverse range of courses designed to cater to learners of all levels. Benefit from expert instructors, interactive sessions, and valuable resources. Expand your horizons, collaborate with fellow learners, and embark on a transformative learning journey'
+}
+
 
 const Register = () => {
   return (
@@ -62,13 +68,14 @@ const Register = () => {
         <section className="flex flex-col items-start justify-between space-y-14 md:flex-row md:space-x-10 md:space-y-0 lg:space-x-14">
           <div className="flex flex-col">
             <div className="mb-[18px] flex flex-row items-center">
-              <h5 className={`${italia.className} mr-[16px]`}>Overview</h5>
+              <h5 className={`${italia.className} mr-[6px] sm:mr-[16px]`}>Overview</h5>
               <Link
-                href="#"
+                href="/About"
+                aria-label="Know more about us"
                 className="group flex flex-row -space-x-[2px] sm:space-x-2"
               >
                 <Outline className="scale-[0.9] sm:scale-100">
-                  Know more about us
+                  more about us
                 </Outline>
                 <MovingArrow
                   className="scale-[0.9] sm:scale-100"

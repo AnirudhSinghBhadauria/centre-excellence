@@ -14,249 +14,249 @@ const Skater = () => {
         d="M262.805 223.183C262.805 223.183 310.015 174.003 310.855 177.353C312.475 183.853 315.735 195.033 315.735 195.033L367.855 175.743C367.855 175.743 349.735 87.7232 340.355 77.4132"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M514.255 258.833C515.175 248.643 481.445 254.463 481.445 254.463C481.445 254.463 512.895 273.943 514.255 258.833Z"
         fill="white"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M367.865 175.733L377.005 217.903C377.005 217.903 488.985 252.783 499.485 262.153C509.985 271.533 529.245 284.383 524.045 291.203C520.695 295.593 484.115 268.153 484.115 268.153C484.115 268.153 522.105 294.023 516.735 301.533C511.695 308.593 480.735 279.413 480.735 279.413C480.735 279.413 511.195 305.723 506.235 311.853C501.485 317.733 476.235 289.543 476.235 289.543C476.235 289.543 487.855 303.793 485.615 307.543C483.375 311.293 457.115 284.663 450.365 281.293C443.615 277.923 329.525 246.423 329.525 246.423L315.745 195.053L367.865 175.733Z"
         fill="white"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M304.115 148.903L310.855 177.353"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M292.506 343.568L312 444.601L229 500.5L155 457.5L196.799 420.708C196.799 420.708 132.998 341.499 136 294.5C191.009 325.982 292.506 343.568 292.506 343.568Z"
         fill="black"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M215 325.5L255 431L189 496.17"
         stroke="white"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M115.5 500.5L83 530L187 586.5L171.5 542.5L185 532.5L115.5 500.5Z"
         fill="white"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M133.5 295C206.404 338.05 379.5 365 379.5 365L409.193 502L505 483.855L483.5 339.5C460.681 317.377 278.178 219.567 206.323 210L133.5 295Z"
         fill="black"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M398.995 506.654L516.862 483.787L512.126 526.137L406.376 537.586L398.995 506.654Z"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M504.394 526.912L503.393 543.802L553.5 581.5L421 584L416.31 535.87L504.394 526.912Z"
         fill="white"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M358.765 65.6532C367.828 65.6532 375.175 57.1734 375.175 46.7131C375.175 36.2529 367.828 27.7732 358.765 27.7732C349.702 27.7732 342.355 36.2529 342.355 46.7131C342.355 57.1734 349.702 65.6532 358.765 65.6532Z"
         fill="white"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M205.785 141.663C205.785 141.663 280.825 95.6532 355.865 103.533"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M213.675 149.543C213.675 149.543 274.275 102.323 357.365 113.403"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M242.365 187.653C242.365 187.653 280.825 191.403 305.365 185.153"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M233.365 196.653C233.365 196.653 272.305 201.093 300.115 193.153"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M196.411 86.1636L155.106 57.9886L118.196 112.098L159.501 140.273L196.411 86.1636Z"
         fill="#A7A5A5"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M212.203 96.9271L196.408 86.153L159.499 140.263L175.294 151.037L212.203 96.9271Z"
         fill="black"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M174.025 84.4667L148.779 67.2461L118.192 112.087L143.438 129.307L174.025 84.4667Z"
         fill="white"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M340.365 77.4033C345.145 76.0533 342.365 72.2733 348.985 61.2833C355.735 50.0733 382.885 41.0933 382.865 32.9033C382.815 14.9933 342.015 -13.0967 301.615 11.9033C295.865 15.4633 278.345 14.5532 276.645 22.2432C273.925 34.5232 283.935 30.1732 287.145 38.8332C291.985 51.8932 305.985 58.1432 313.615 61.6432C322.415 65.6932 324.975 81.7433 340.365 77.4033Z"
         fill="black"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M247.053 182.908L121.076 56.9312L2 176.007L127.977 301.984L247.053 182.908Z"
         fill="white"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M247.055 182.906L208.659 144.51L89.5837 263.586L127.979 301.981L247.055 182.906Z"
         fill="#565656"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M151.055 153.223L63.695 66.0732L121.095 56.9631L208.675 144.553L151.055 153.223Z"
         fill="white"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M63.375 12.4032C63.375 12.4032 84.3651 26.2732 89.2351 34.9032"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M221.86 22C221.86 22 200.87 35.87 196 44.5"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M142.865 39.7932C142.865 39.7932 139.415 52.2131 138.745 56.9631"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M291.115 48.1532C291.115 48.1532 224.239 85.1628 212.115 99.1532"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M281.5 283.5L427.5 354.5L453.5 496"
         stroke="white"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M144.276 453.038L245.109 513.49L201.522 540.357L107.632 496.699L144.276 453.038Z"
         stroke="black"
         strokeWidth="3"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M42 571.834C42 571.834 52.7046 587.449 57.8032 587.389C184.973 585.967 463.693 583.992 591.035 581.71C595.25 581.631 603 567.39 603 567.39"
         stroke="black"
         strokeWidth="4"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M42 578.834C42 578.834 52.7046 594.449 57.8032 594.389C184.973 592.967 463.693 590.992 591.035 588.71C595.25 588.631 603 574.39 603 574.39"
         stroke="black"
         strokeWidth="4"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M602.806 575.666C602.806 575.245 602.727 574.743 602.946 574.366C603.25 573.843 603.434 573.264 603.73 572.747C604.184 571.952 604.526 570.834 604.526 569.873C604.526 569.146 604.526 568.42 604.526 567.694C604.526 567.402 604.401 567.882 604.361 567.968C603.889 568.965 603.615 570.034 603.15 571.039C602.771 571.857 602.484 572.789 601.952 573.524C601.824 573.701 601.219 574.719 601.455 574.092C601.881 572.956 602.285 571.824 603.01 570.835C603.446 570.24 603.609 570.118 603.609 570.886C603.609 571.643 603.723 572.387 603.723 573.142C603.723 573.231 603.701 574.528 603.335 574.366C603.05 574.239 603.562 573.373 603.602 573.206C603.705 572.779 603.722 572.475 603.927 572.11C604.001 571.979 603.774 572.492 603.698 572.569C603.435 572.832 602.999 573.11 602.646 573.25C602.418 573.342 602.969 572.599 603.175 572.734C603.944 573.237 602.92 574.748 604.067 574.748"
@@ -312,17 +312,17 @@ const Skater = () => {
         d="M475.421 631.546C485.682 634.221 496.353 627.365 499.255 616.233C502.157 605.101 496.192 593.909 485.932 591.233C475.671 588.558 465 595.414 462.098 606.546C459.195 617.678 465.161 628.871 475.421 631.546Z"
         stroke="black"
         strokeWidth="4"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M160.768 634.39C170.58 636.948 180.832 630.209 183.667 619.338C186.501 608.467 180.844 597.58 171.031 595.022C161.219 592.464 150.966 599.202 148.132 610.073C145.298 620.945 150.955 631.831 160.768 634.39Z"
         stroke="black"
         strokeWidth="4"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         strokeLinecap="round"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         fillRule="evenodd"

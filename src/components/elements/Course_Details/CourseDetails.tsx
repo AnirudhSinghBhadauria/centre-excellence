@@ -47,8 +47,12 @@ const CourseDetails = () => {
             </ul>
 
             <div className="my-20 flex flex-row justify-end">
-              <Link className="group flex flex-row gap-2" href="#">
-                <Outline ifBlackBack={true}>get official poster</Outline>
+              <Link
+                className="group flex flex-row gap-2"
+                href="/Register"
+                aria-label="Register - Centre of Excellence"
+              >
+                <Outline ifBlackBack={true}>Register for courses</Outline>
                 <MovingArrow type="eight" background={false} />
               </Link>
             </div>
@@ -57,7 +61,9 @@ const CourseDetails = () => {
               Got it? Let's determine your eligibility...
             </p>
 
-            <div className={`${italia.className} my-10 flex items-center sm:items-stretch flex-col gap-4`}>
+            <div
+              className={`${italia.className} pt-10 sm:my-10 flex items-center sm:items-stretch flex-col gap-4`}
+            >
               <div className="flex flex-col gap-4 sm:flex-row">
                 <div className="detail-box">
                   <p>
@@ -84,6 +90,17 @@ const CourseDetails = () => {
                   <p>Seats are limited. Please consider registering.</p>
                 </div>
               </div>
+            </div>
+            <div className="my-20 flex flex-row justify-end">
+              <Link
+                className="group flex flex-row gap-2"
+                target="_blank"
+                href="https://cdn.sanity.io/files/aftdl3p2/production/43415d893978940e0a29f6b089ee95ccf5aa3ab0.pdf"
+                aria-label="Poster- Centre of Excellence"
+              >
+                <Outline ifBlackBack={true}>get official poster</Outline>
+                <MovingArrow type="eight" background={false} />
+              </Link>
             </div>
           </div>
         </section>

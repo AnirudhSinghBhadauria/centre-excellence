@@ -15,42 +15,49 @@ import { usePathname } from "next/navigation";
 interface HeaderContent {
   href: string;
   text: string;
+  target: string;
 }
 
 const Header = () => {
   const content: HeaderContent[] = [
-    { href: "/About", text: "About" },
-    { href: "#", text: "Faculty" },
-    { href: "/Gallery", text: "Gallery" },
-    { href: "/Register", text: "Register" },
+    { href: "/About", text: "About", target: '_self' },
+    { href: "http://uitshivpuri.rgpv.ac.in/Faculty.html", text: "Faculty", target: '_blank' },
+    { href: "/Gallery", text: "Gallery", target: '_self' },
+    { href: "/Register", text: "Register", target: '_self' },
   ];
 
   const { sideBarHandeler, sidebarState } = useAppContext();
 
-  const pathname = usePathname();
-
   const sideBarToggler = () => {
     sideBarHandeler(!sidebarState);
   };
-  const closeSideBar = () => sideBarHandeler(false)
+  const closeSideBar = () => sideBarHandeler(false);
 
   return (
     <header className="primary-transition absolute right-0 top-0 z-50 w-full pt-[20px] lg:pt-[30px]">
       <section className="primary-container">
         <div className="lg:primary-grid flex justify-between">
-          <Link href="/" className="col-span-4 flex flex-row items-center">
+          <Link
+            href="/"
+            aria-label="Home"
+            title="COE Home"
+            className="col-span-4 flex flex-row items-center w-fit"
+          >
             <div className="hidden sm:block">
               <Logo className="fill-head" />
             </div>
             <div className="block sm:hidden">
-              <FooterLogo onClick={closeSideBar} className="h-[16px] w-fit fill-head stroke-head" />
+              <FooterLogo
+                onClick={closeSideBar}
+                className="h-[16px] w-fit fill-head stroke-head"
+              />
             </div>
           </Link>
 
           <div className="col-span-6">
             <ul className="hidden flex-row pl-0 md:flex md:gap-[20px] lg:gap-[30px] lg:pl-12 xl:pl-0">
-              {content.map(({ href, text }) => (
-                <Link key={text} href={href}>
+              {content.map(({ href, text, target }) => (
+                <Link key={text} aria-label={text} href={href} target={target}>
                   <p
                     className={`${sans.className} text-sm font-light leading-6 text-main`}
                   >
@@ -65,6 +72,7 @@ const Header = () => {
             <Link
               className="group hidden flex-row items-center justify-end gap-1 md:inline-flex"
               href="/Contact"
+              aria-label="Contact-Us"
             >
               <Outline>contact</Outline>
               <MovingArrow type="eight" background={false} />

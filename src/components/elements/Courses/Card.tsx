@@ -12,6 +12,8 @@ interface Card {
   description: string;
   buttonText: string;
   image: string;
+  title: string;
+  target: string;
 }
 
 const Card = ({
@@ -21,6 +23,8 @@ const Card = ({
   description,
   buttonText,
   image,
+  title,
+  target,
 }: Card) => {
   return (
     <div
@@ -33,7 +37,12 @@ const Card = ({
     >
       <section className="w-full">
         <div className="overflow-hidden rounded-[20px]">
-          <a href={link}>
+          <Link
+            href={link}
+            target={target}
+            title={title}
+            aria-label="Picture-Label"
+          >
             <Image
               src={image}
               alt={heading}
@@ -42,9 +51,9 @@ const Card = ({
               width="1200"
               height="1200"
             />
-          </a>
+          </Link>
         </div>
-        <a href="#">
+        <Link href={link} target={target} aria-label="Heading-Label">
           <h5
             className={`${italia.className} card-heading relative mb-[32px] mt-[21px] 
            max-w-[90%] text-black sm:max-w-[75%] lg:mb-[40px]`}
@@ -54,11 +63,16 @@ const Card = ({
               <MovingArrow type="fourteen" background={true} />
             </span>
           </h5>
-        </a>
+        </Link>
       </section>
 
       <section className="flex flex-col-reverse items-end justify-between gap-6 px-5 sm:flex-row sm:gap-0 lg:flex-col-reverse lg:gap-6 xl:flex-row">
-        <Link className="flex flex-row gap-2" href="#">
+        <Link
+          className="flex flex-row gap-2"
+          href={link}
+          target={target}
+          aria-label="Button-Text"
+        >
           <Outline>{buttonText}</Outline>
         </Link>
 

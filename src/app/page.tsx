@@ -20,6 +20,7 @@ const Home = () => {
     c_paraOne,
     c_paraTwo,
     c_image,
+    c_target,
   } = descriptions.college;
 
   const {
@@ -30,7 +31,7 @@ const Home = () => {
     ce_paraOne,
     ce_paraTwo,
     ce_image,
- 
+    ce_target,
   } = descriptions.coe;
   const {
     d_title,
@@ -40,7 +41,7 @@ const Home = () => {
     d_paraOne,
     d_paraTwo,
     d_image,
-
+    d_target,
   } = descriptions.director;
 
   const targetRef = useRef<HTMLDivElement>(null);
@@ -98,16 +99,17 @@ const Home = () => {
         paraTwo={c_paraTwo}
         linkText={c_linkText}
         image={c_image}
+        target={c_target}
       />
 
       <MidHeading
         type="one"
         button={true}
         target="_self"
-        hyperlink="#"
+        hyperlink="/Contact"
         lineOne="It 's Centre of"
         lineTwo="Excellence"
-        linkText="Cources"
+        linkText="Contact"
       />
       <Inverted
         style={{ backgroundColor: bgColor }}
@@ -118,6 +120,7 @@ const Home = () => {
         paraTwo={ce_paraTwo}
         linkText={ce_linkText}
         image={ce_image}
+        target={ce_target}
       />
 
       {/* SKATER---------------- */}
@@ -131,9 +134,7 @@ const Home = () => {
         </motion.div>
       </motion.section>
 
-      <motion.section
-        className="skater-back block w-full flex-row items-center justify-center overflow-x-hidden pt-[100px] pb-[0px] sm:pb-[40px] sm:pt-[145px] md:pb-[80px] md:pt-[197px] lg:hidden"
-      >
+      <motion.section className="skater-back block w-full flex-row items-center justify-center overflow-x-hidden pt-[100px] pb-[0px] sm:pb-[40px] sm:pt-[145px] md:pb-[80px] md:pt-[197px] lg:hidden">
         <motion.div
           style={{ transform: moveSkaterMobile }}
           className="w-fit transition-all duration-100 ease-linear"
@@ -146,8 +147,8 @@ const Home = () => {
         className="bg-white"
         type="two"
         button={true}
-        target="_blank"
-        hyperlink="#"
+        target="_self"
+        hyperlink="/Gallery"
         lineOne="Courses Offered ,"
         lineTwo="Eminence"
         linkText="Gallery"
@@ -160,7 +161,7 @@ const Home = () => {
         type="one"
         button={true}
         target="_blank"
-        hyperlink="#"
+        hyperlink="https://www.linkedin.com/in/singhai/"
         lineOne="From Director's"
         lineTwo="Pen"
         linkText="Linkedin"
@@ -174,6 +175,7 @@ const Home = () => {
         paraTwo={d_paraTwo}
         linkText={d_linkText}
         image={d_image}
+        target={d_target}
       />
       <div className="h-[120px] w-full bg-white"></div>
     </motion.div>

@@ -8,6 +8,12 @@ import Outline from "@/components/elements/Misc/Outline";
 import MovingArrow from "@/components/elements/Misc/MovingArrow";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Centre of Excellence | Gallery",
+  description:
+    "The Gallery of Centre of Excellence is a vibrant exhibition space showcasing groundbreaking innovations and achievements in various fields, inspiring visitors with its immersive displays.",
+};
+
 const Gallery = () => {
   return (
     <section className="primary-transition overflow-hidden bg-primary pt-[92px] lg:pt-[150px]">
@@ -128,6 +134,7 @@ const Gallery = () => {
             <Link
               href="http://uitshivpuri.rgpv.ac.in/index.html"
               className="group flex max-w-fit flex-row gap-2"
+              aria-label="UIT RGPV Shivpuri"
               target="_blank"
             >
               <Outline>Visit our page</Outline>

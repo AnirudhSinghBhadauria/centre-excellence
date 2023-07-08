@@ -4,7 +4,7 @@ import React from "react";
 import InvertedArrow from "./InvertedArrow";
 import Quote from "./Quote";
 import Link from "next/link";
-import {motion} from 'framer-motion';
+import { motion } from "framer-motion";
 interface Inverted {
   linkText: string;
   link: string;
@@ -14,6 +14,7 @@ interface Inverted {
   paraTwo: string;
   image: string;
   style?: object;
+  target: string;
 }
 
 const Inverted = ({
@@ -25,6 +26,7 @@ const Inverted = ({
   paraOne,
   paraTwo,
   style,
+  target
 }: Inverted) => {
   return (
     <motion.div style={style} className="w-full">
@@ -36,6 +38,8 @@ const Inverted = ({
         >
           <Link
             href={link}
+            aria-label={linkText}
+            target={target}
             className="group relative grid place-items-center rounded-[20px] bg-head"
           >
             <Image
@@ -43,7 +47,7 @@ const Inverted = ({
               alt={title}
               className="block h-auto 
             w-full rounded-[20px] object-cover brightness-90 filter transition-all 
-            duration-1000 ease-in-out group-hover:opacity-40"
+            duration-1000 ease-in-out group-hover:opacity-60"
               height="600"
               width="600"
             />

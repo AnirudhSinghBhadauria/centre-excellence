@@ -5,6 +5,11 @@ import Circle from "@/components/elements/Misc/svg/Circle";
 import X from "@/components/elements/Misc/svg/X";
 import Wire from "@/components/elements/Misc/svg/Wire";
 
+export const metadata = {
+  title: 'Centre of Excellence | Page Not Found',
+  description: 'A 404 page not found is an error message displayed when a webpage or resource cannot be located on a server. It indicates that the requested page or content is unavailable. Apologies, but the page you are looking for could not be found.'
+}
+
 const PageNotFound = () => {
   return (
     <section className="overflow-hidden relative w-full origin-bottom bg-main h-screen flex flex-row justify-center items-center primary-transition">
@@ -20,6 +25,7 @@ const PageNotFound = () => {
         </p>
         <Link
           href="/"
+          aria-label="Home Page"
           className={`${italia.className} flex flex-row justify-center items-center text-[0.875rem] px-5 pb-1 pt-[0.4em] font-medium bg-head rounded-lg text-primary hover:bg-[#000000d6]`}
         >
           GO HOME

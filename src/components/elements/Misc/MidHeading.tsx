@@ -2,6 +2,7 @@ import { italia } from "@/app/layout";
 import React from "react";
 import Outline from "./Outline";
 import MovingArrow from "./MovingArrow";
+import Link from "next/link";
 
 interface MidHeading {
   type: string;
@@ -40,16 +41,17 @@ const MidHeading = ({
               {lineTwo}
               {button && (
                 <span className="mr-[2px] inline-flex translate-y-2 pl-3 lg:translate-y-0 lg:pl-4">
-                  <a
+                  <Link
                     href={hyperlink}
                     target={target}
+                    aria-label='Heading-Text'
                     className="group flex -translate-y-4 flex-row gap-1"
                   >
                     <Outline className="mr-[4px]" ifBlackBack={false}>
                       {linkText}
                     </Outline>
                     <MovingArrow type="eight" background={true} />
-                  </a>
+                  </Link>
                 </span>
               )}
             </h2>

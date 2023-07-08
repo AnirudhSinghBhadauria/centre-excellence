@@ -1,9 +1,10 @@
 export const descriptions = {
   college: {
-    c_link: "#",
+    c_link: "http://uitshivpuri.rgpv.ac.in/index.html",
     c_title: "UIT RGPV Shivpuri",
     c_subTitle: "home - coe - rgpv",
     c_linkText: "- View More",
+    c_target: "_blank",
     c_image:
       "https://cdn.sanity.io/images/aftdl3p2/production/8412814cb70c395922cbbb716944a4469bc3875a-1900x2198.webp",
     c_paraOne:
@@ -14,10 +15,11 @@ export const descriptions = {
   },
 
   coe: {
-    ce_link: "#",
+    ce_link: "/Gallery",
     ce_title: "Centre of Excellence",
     ce_subTitle: "coe - uit - shivpuri",
-    ce_linkText: "- Courses",
+    ce_linkText: "- Gallery",
+    ce_target: "_self",
     ce_image:
       "https://cdn.sanity.io/images/aftdl3p2/production/857e6a8b194d0fbbe364b2bb022b45b7e5957828-1900x2198.webp",
     ce_paraOne:
@@ -28,10 +30,11 @@ export const descriptions = {
   },
 
   director: {
-    d_link: "#",
+    d_link: "https://www.linkedin.com/in/singhai/",
     d_title: "Director's Message",
     d_subTitle: "note - uit - shivpuri",
     d_linkText: "- LinkedIn",
+    d_target: "_blank",
     d_image:
       "https://cdn.sanity.io/images/aftdl3p2/production/5d8e57d22e15d5ac568b8a4dfdcfb962e8ae53a6-1920x2219.webp",
     d_paraOne:
@@ -47,7 +50,9 @@ export const courses = [
     // className: "pr-[20px]",
     position: "left",
     heading: "UIT Shivpuri is actually Centre of Excellence",
-    link: "#",
+    link: "/Gallery",
+    title: "Gallery - Centre of Excellence",
+    target: "_self",
     description:
       "COE is a team of skilled knowledge workers whose mission is to provide the organisation they work for with best practices around a particular area of interest.",
     buttonText: "gallery",
@@ -58,7 +63,9 @@ export const courses = [
     // className: "border-r-2 border-l-2 border-gray-300 px-[20px]",
     position: "middle",
     heading: "Power Engineering and Renewable Energy",
-    link: "#",
+    title: "Brochure - Power Engineering and Renewable Energy",
+    link: "https://cdn.sanity.io/files/aftdl3p2/production/ab77afc1e6f6e424ffc2b99792d82870c3c0106e.pdf",
+    target: "_blank",
     description:
       "Its a subfield of electrical engineering that deals with the generation, transmission, and utilization of electric power, and the electrical apparatus connected to such systems.",
     buttonText: "brochure",
@@ -69,7 +76,9 @@ export const courses = [
     // className: "pl-[20px]",
     position: "right",
     heading: "Artificial Intelligence and Machine Learning",
-    link: "#",
+    title: "Brochure - Artificial Intelligence and Machine Learning",
+    link: "https://cdn.sanity.io/files/aftdl3p2/production/ab77afc1e6f6e424ffc2b99792d82870c3c0106e.pdf",
+    target: "_blank",
     description:
       "It refers to processes and algorithms that are able to simulate human intelligence, including mimicking cognitive functions such as perception and problem solving.",
     buttonText: "brochure",
@@ -101,9 +110,9 @@ export const details = [
 
 export const sidebar = [
   {
-    href: "#",
+    href: "/",
     number: "01",
-    text: "Courses",
+    text: "Home",
     delay: "75ms",
   },
   {
@@ -113,7 +122,7 @@ export const sidebar = [
     delay: "150ms",
   },
   {
-    href: "#",
+    href: "/Register",
     number: "03",
     text: "Register",
     delay: "225ms",
@@ -125,7 +134,7 @@ export const sidebar = [
     delay: "300ms",
   },
   {
-    href: "#",
+    href: "/Gallery",
     number: "05",
     text: "Gallery",
     delay: "375ms",

@@ -6,6 +6,12 @@ import MovingArrow from "@/components/elements/Misc/MovingArrow";
 import Earth from "@/components/elements/Hero/Earth";
 import Smile from "@/components/elements/Hero/Smile";
 
+export const metadata = {
+  title: "Centre of Excellence | About",
+  description:
+    "University Institute of Technology, Shivpuri, a constituent institute of Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal is established in 2020. The institution presently offers undergraduate programmes in Civil Engineering, Computer Science Engineering, Electrical and Electronics Engineering and Mechanical Engineering with an intake of 60 students each.",
+};
+
 const About = () => {
   return (
     <Fragment>
@@ -93,17 +99,20 @@ const About = () => {
             >
               <div className="overflow-hidden">
                 <h3 className="hero-text-one about-para">
-                  We ardently <span className="text-purple">cultivates</span> talent,
+                  We ardently <span className="text-purple">cultivates</span>{" "}
+                  talent,
                 </h3>
               </div>
               <div className="overflow-hidden">
                 <h3 className="hero-text-two about-para">
-                  <span className="text-purple">fostering</span> a knowledge enterprise,
+                  <span className="text-purple">fostering</span> a knowledge
+                  enterprise,
                 </h3>
               </div>
               <div className="overflow-hidden">
                 <h3 className="hero-text-three about-para">
-                  propelling erudition's <span className="text-purple">transformation</span>
+                  propelling erudition's{" "}
+                  <span className="text-purple">transformation</span>
                 </h3>
               </div>
             </section>
@@ -111,7 +120,12 @@ const About = () => {
         </section>
 
         <section className="flex flex-row items-center justify-center">
-          <Link className="group flex flex-row gap-2" href="#">
+          <Link
+            className="group flex flex-row gap-2"
+            href="http://uitshivpuri.rgpv.ac.in/AboutUs.html"
+            aria-label="Centre of Excellence - About Us"
+            target="_blank"
+          >
             <Outline ifBlackBack={true} className="primary-outline text-black">
               know more about us
             </Outline>

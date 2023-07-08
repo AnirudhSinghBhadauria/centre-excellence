@@ -8,6 +8,12 @@ import { createPortal } from "react-dom";
 import { sidebar } from "@/assets/data/appData";
 import { useAppContext } from "@/store/AppContextProvider";
 
+interface Links {
+  href: string;
+  text: string;
+  target: string;
+}
+
 const Modal = () => {
   let aside = document.getElementById("side-bar") as HTMLElement;
   const { sidebarState, sideBarHandeler } = useAppContext();
@@ -25,6 +31,29 @@ const Modal = () => {
 
   const sideBarToggler = () => sideBarHandeler(false);
 
+  const Links: Links[] = [
+    {
+      text: "Facebook",
+      href: "https://www.facebook.com/uitrgpvshivpuri/",
+      target: '_blank'
+    },
+    {
+      text: "Twitter",
+      href: "https://twitter.com/uitrgpvshivpuri",
+      target: '_blank'
+    },
+    {
+      text: "Instagram",
+      href: "https://www.instagram.com/uitrgpvshivpuri/",
+      target: '_blank'
+    },
+    {
+      text: "LinkedIn",
+      href: "https://www.linkedin.com/in/uit-rgpv-shivpuri-4b2010222/",
+      target: '_blank'
+    },
+  ];
+
   return (
     <div className="primary-container primary-transition h-screen w-full bg-primary pt-[100px] text-head">
       <div
@@ -36,6 +65,7 @@ const Modal = () => {
               onClick={sideBarToggler}
               key={number}
               href={href}
+              aria-label={text}
               style={{ transitionDelay: delay }}
               className={`flex flex-row justify-between border-b border-head py-[20px]  transition-all 
               duration-1000 ease-in-out ${
@@ -61,29 +91,19 @@ const Modal = () => {
               sidebarState ? "opacity-100" : "opacity-0"
             }`}
             >
-              <li>
-                <Link onClick={sideBarToggler} href="#">
-                  instagram
-                </Link>
-              </li>
-              <li>
-                <Link onClick={sideBarToggler} href="#">
-                  twitter
-                </Link>
-              </li>
-              <li>
-                <Link onClick={sideBarToggler} href="#">
-                  facebook
-                </Link>
-              </li>
-              <li>
-                <Link onClick={sideBarToggler} href="#">
-                  linkedin
-                </Link>
-              </li>
+              {Links.map(({ text, href, target }) => (
+                <li key={text}>
+                  <Link onClick={sideBarToggler} target={target} href={href} aria-label={text}>
+                    {text}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </nav>
-          <button
+          <Link
+          href='http://uitshivpuri.rgpv.ac.in/index.html'
+          target="_blank"
+          aria-label="UIT RGPV Shivpuri"
             onClick={sideBarToggler}
             className={`flex w-full flex-row items-center justify-center transition-opacity 
           delay-[600ms] duration-500 ${
@@ -91,10 +111,10 @@ const Modal = () => {
           }`}
           >
             <div className="mr-[4px] flex h-[35px] w-full items-center justify-center rounded-[30px] border-2 border-head text-[12px] font-semibold uppercase leading-none">
-              Centre of Excellence
+              university institute of technology shivpuri
             </div>
             <MovingArrow type="fourteen" background={true} />
-          </button>
+          </Link>
         </section>
       </div>
     </div>

@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef } from "react";
+import React from "react";
 import FooterLogo from "../elements/Footer/FooterLogo";
 import { italia } from "@/app/layout";
 import Line from "../elements/Footer/Line";
@@ -8,48 +8,56 @@ import JumpingMan from "../elements/Footer/JumpingMan";
 import Outline from "../elements/Misc/Outline";
 import MovingArrow from "../elements/Misc/MovingArrow";
 import Link from "next/link";
-import { motion, useScroll, useTransform } from "framer-motion";
 
 interface FooterContent {
   text: string;
   href: string;
+  target: string;
 }
 
 const Footer = ({ style }: { style?: object }) => {
   const footerOne: FooterContent[] = [
     {
-      text: "Cources",
-      href: "#",
+      text: "About",
+      href: "/About",
+      target: "_self",
     },
     {
-      text: "About",
-      href: "#",
+      text: "Gallery",
+      href: "/Gallery",
+      target: "_self",
     },
     {
       text: "Register",
-      href: "#",
+      href: "/Register",
+      target: "_self",
     },
     {
       text: "Contact",
-      href: "#",
+      href: "/Contact",
+      target: "_self",
     },
   ];
   const footerTwo: FooterContent[] = [
     {
       text: "Facebook",
-      href: "#",
+      href: "https://www.facebook.com/uitrgpvshivpuri/",
+      target: "_blank",
     },
     {
       text: "Twitter",
-      href: "#",
+      href: "https://twitter.com/uitrgpvshivpuri",
+      target: "_blank",
     },
     {
       text: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/uitrgpvshivpuri/",
+      target: "_blank",
     },
     {
       text: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/uit-rgpv-shivpuri-4b2010222/",
+      target: "_blank",
     },
   ];
 
@@ -70,9 +78,10 @@ const Footer = ({ style }: { style?: object }) => {
           <span className="group inline-flex">
             <Link
               className="flex -translate-y-2 flex-row gap-1"
-              href="http://uitshivpuri.rgpv.ac.in/"
+              aria-label="HomePage-COE"
+              href="/"
             >
-              <Outline ifBlackBack={true}>Visit our page</Outline>
+              <Outline ifBlackBack={true}>Home Page</Outline>
               <MovingArrow type="eight" background={false} />
             </Link>
           </span>
@@ -83,9 +92,10 @@ const Footer = ({ style }: { style?: object }) => {
           <span className="group ml-4 inline-flex -translate-y-1 pt-0 md:ml-0 md:block md:translate-y-0 md:pb-0">
             <Link
               className="mt-3 flex flex-row gap-1"
-              href="http://uitshivpuri.rgpv.ac.in/"
+              aria-label="HomePage-COE"
+              href="/"
             >
-              <Outline ifBlackBack={true}>Visit our page</Outline>
+              <Outline ifBlackBack={true}>Home Page</Outline>
               <MovingArrow type="eight" background={false} />
             </Link>
           </span>
@@ -99,8 +109,12 @@ const Footer = ({ style }: { style?: object }) => {
         >
           <nav className="flex w-full flex-row items-center justify-evenly">
             {footerOne.map(({ text, href }) => (
-              <li>
-                <Link className={`${italia.className} footer-text`} href={href}>
+              <li key={text}>
+                <Link
+                  className={`${italia.className} footer-text`}
+                  aria-label={text}
+                  href={href}
+                >
                   {text}
                 </Link>
               </li>
@@ -112,16 +126,26 @@ const Footer = ({ style }: { style?: object }) => {
             <p className={`${italia.className} footer-text uppercase`}>
               COE/2023
             </p>
-            <Link className={`${italia.className} footer-text`} href="#">
+            <Link
+              className={`${italia.className} footer-text`}
+              href="https://www.linkedin.com/in/anirudhsinghbhadauria/"
+              aria-label="Developer's Profile"
+              target="_blank"
+            >
               Developer
             </Link>
             <Line />
           </nav>
 
           <nav className="flex w-full flex-row items-center justify-evenly">
-            {footerTwo.map(({ text, href }) => (
+            {footerTwo.map(({ text, href, target }) => (
               <li key={text}>
-                <Link className={`${italia.className} footer-text`} href={href}>
+                <Link
+                  className={`${italia.className} footer-text`}
+                  href={href}
+                  aria-label={text}
+                  target={target}
+                >
                   {text}
                 </Link>
               </li>
