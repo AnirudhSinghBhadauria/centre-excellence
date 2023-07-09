@@ -2,8 +2,9 @@ import React from "react";
 import { italia, sans } from "../layout";
 import Link from "next/link";
 import MovingArrow from "@/components/elements/Misc/MovingArrow";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Centre of Excellence | Contact',
   description :'If you have any queries or require further information, please do not hesitate to contact us. Our dedicated team is available to assist you and address any concerns you may have. Feel free to reach out to us, and we will be glad to provide the assistance you need.'
 }

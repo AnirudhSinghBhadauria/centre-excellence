@@ -44,6 +44,7 @@ const Home = () => {
     d_target,
   } = descriptions.director;
 
+
   const targetRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: targetRef });
 

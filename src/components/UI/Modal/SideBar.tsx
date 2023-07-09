@@ -49,7 +49,7 @@ const Modal = () => {
     },
     {
       text: "LinkedIn",
-      href: "https://www.linkedin.com/in/uit-rgpv-shivpuri-4b2010222/",
+      href: "https://www.linkedin.com/in/uitrgpvshivpuri/",
       target: '_blank'
     },
   ];

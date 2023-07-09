@@ -7,8 +7,9 @@ import Logo from "@/components/elements/Misc/Logo";
 import Outline from "@/components/elements/Misc/Outline";
 import MovingArrow from "@/components/elements/Misc/MovingArrow";
 import Link from "next/link";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Centre of Excellence | Gallery",
   description:
     "The Gallery of Centre of Excellence is a vibrant exhibition space showcasing groundbreaking innovations and achievements in various fields, inspiring visitors with its immersive displays.",

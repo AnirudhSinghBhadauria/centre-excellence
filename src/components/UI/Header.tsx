@@ -20,10 +20,14 @@ interface HeaderContent {
 
 const Header = () => {
   const content: HeaderContent[] = [
-    { href: "/About", text: "About", target: '_self' },
-    { href: "http://uitshivpuri.rgpv.ac.in/Faculty.html", text: "Faculty", target: '_blank' },
-    { href: "/Gallery", text: "Gallery", target: '_self' },
-    { href: "/Register", text: "Register", target: '_self' },
+    { href: "/About", text: "About", target: "_self" },
+    {
+      href: "http://uitshivpuri.rgpv.ac.in/Faculty.html",
+      text: "Faculty",
+      target: "_blank",
+    },
+    { href: "/Gallery", text: "Gallery", target: "_self" },
+    { href: "/Register", text: "Register", target: "_self" },
   ];
 
   const { sideBarHandeler, sidebarState } = useAppContext();
@@ -40,7 +44,7 @@ const Header = () => {
           <Link
             href="/"
             aria-label="Home"
-            title="COE Home"
+            title="Centre of Excellence - Home"
             className="col-span-4 flex flex-row items-center w-fit"
           >
             <div className="hidden sm:block">
@@ -57,13 +61,20 @@ const Header = () => {
           <div className="col-span-6">
             <ul className="hidden flex-row pl-0 md:flex md:gap-[20px] lg:gap-[30px] lg:pl-12 xl:pl-0">
               {content.map(({ href, text, target }) => (
-                <Link key={text} aria-label={text} href={href} target={target}>
-                  <p
-                    className={`${sans.className} text-sm font-light leading-6 text-main`}
+                <li key={text}>
+                  <Link
+                    key={text}
+                    aria-label={text}
+                    href={href}
+                    target={target}
                   >
-                    {text}
-                  </p>
-                </Link>
+                    <p
+                      className={`${sans.className} text-sm font-light leading-6 text-main`}
+                    >
+                      {text}
+                    </p>
+                  </Link>
+                </li>
               ))}
             </ul>
           </div>

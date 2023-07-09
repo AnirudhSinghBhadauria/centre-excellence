@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+     <url>
+          <loc>https://coergpv.vercel.app/</loc>
+          <lastmod>2023-07-09</lastmod>
+     </url>    
+     <url>
+          <loc>https://coergpv.vercel.app/Contact</loc>
+          <lastmod>2023-07-09</lastmod>
+     </url>    
+     <url>
+          <loc>https://coergpv.vercel.app/About</loc>
+          <lastmod>2023-07-09</lastmod>
+     </url>    
+     <url>
+          <loc>https://coergpv.vercel.app/Gallery</loc>
+          <lastmod>2023-07-09</lastmod>
+     </url>    
+     <url>
+          <loc>https://coergpv.vercel.app/Register</loc>
+          <lastmod>2023-07-09</lastmod>
+     </url>    
+</urlset>

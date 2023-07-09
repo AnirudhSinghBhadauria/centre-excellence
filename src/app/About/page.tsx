@@ -5,8 +5,9 @@ import Outline from "@/components/elements/Misc/Outline";
 import MovingArrow from "@/components/elements/Misc/MovingArrow";
 import Earth from "@/components/elements/Hero/Earth";
 import Smile from "@/components/elements/Hero/Smile";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Centre of Excellence | About",
   description:
     "University Institute of Technology, Shivpuri, a constituent institute of Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal is established in 2020. The institution presently offers undergraduate programmes in Civil Engineering, Computer Science Engineering, Electrical and Electronics Engineering and Mechanical Engineering with an intake of 60 students each.",

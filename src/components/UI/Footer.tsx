@@ -56,7 +56,7 @@ const Footer = ({ style }: { style?: object }) => {
     },
     {
       text: "LinkedIn",
-      href: "https://www.linkedin.com/in/uit-rgpv-shivpuri-4b2010222/",
+      href: "https://www.linkedin.com/in/uitrgpvshivpuri/",
       target: "_blank",
     },
   ];
@@ -107,19 +107,19 @@ const Footer = ({ style }: { style?: object }) => {
           className="mt-12 flex w-full flex-col items-center justify-evenly gap-5 border-b-0
            border-[#EEEAEA] pb-[30px] md:mt-0 md:gap-7 lg:flex-row lg:gap-0 lg:border-b-[1px] xl:mx-16"
         >
-          <nav className="flex w-full flex-row items-center justify-evenly">
-            {footerOne.map(({ text, href }) => (
-              <li key={text}>
-                <Link
-                  className={`${italia.className} footer-text`}
-                  aria-label={text}
-                  href={href}
-                >
-                  {text}
-                </Link>
-              </li>
-            ))}
-          </nav>
+            <ul className="flex w-full flex-row items-center justify-evenly">
+              {footerOne.map(({ text, href }) => (
+                <li key={text}>
+                  <Link
+                    className={`${italia.className} footer-text`}
+                    aria-label={text}
+                    href={href}
+                  >
+                    {text}
+                  </Link>
+                </li>
+              ))}
+            </ul>
 
           <nav className="flex flex-row items-center gap-10">
             <Line />
@@ -137,7 +137,7 @@ const Footer = ({ style }: { style?: object }) => {
             <Line />
           </nav>
 
-          <nav className="flex w-full flex-row items-center justify-evenly">
+          <ul className="flex w-full flex-row items-center justify-evenly">
             {footerTwo.map(({ text, href, target }) => (
               <li key={text}>
                 <Link
@@ -150,7 +150,7 @@ const Footer = ({ style }: { style?: object }) => {
                 </Link>
               </li>
             ))}
-          </nav>
+          </ul>
         </div>
       </section>
 

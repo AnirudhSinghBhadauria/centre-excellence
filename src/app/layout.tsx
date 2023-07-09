@@ -5,8 +5,9 @@ import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import { AppContextProvider } from "@/store/AppContextProvider";
 import SideBar from "@/components/UI/Modal/SideBar";
+import { Metadata } from "next";
 
-// NEXT 13 FONTS-----------------------
+// NEXT 13 FONTS -----------------------
 
 export const sarif = Inter({ subsets: ["latin"] });
 export const sans = localFont({
@@ -27,10 +28,10 @@ export const italia = localFont({
   ],
 });
 
-// METADATA-----------------------
+// METADATA --------------------
 
-export const metadata = {
-  title: "Centre of Excellence | RGPV",
+export const metadata: Metadata = {
+  title: "Centre of Excellence",
   description:
     "Centre of Excellence offers specialized programs in Power Engineering and Artificial Intelligence (AI) and Machine Learning (ML). The Power Engineering course focuses on electrical power generation, transmission, and distribution systems. The AI and ML program provides students with the necessary skills to understand and develop intelligent systems using machine learning algorithms and artificial intelligence techniques.",
 };

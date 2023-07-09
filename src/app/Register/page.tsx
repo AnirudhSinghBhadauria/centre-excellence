@@ -3,8 +3,9 @@ import Outline from "@/components/elements/Misc/Outline";
 import React from "react";
 import Link from "next/link";
 import { italia, sarif } from "../layout";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Centre of Excellence | Register",
   description: 'Enroll in our courses today and unlock a world of knowledge and skills. Register to join our diverse range of courses designed to cater to learners of all levels. Benefit from expert instructors, interactive sessions, and valuable resources. Expand your horizons, collaborate with fellow learners, and embark on a transformative learning journey'
 }
