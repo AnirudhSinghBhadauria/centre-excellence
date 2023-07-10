@@ -43,8 +43,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="overflow-x-hidden">
-        <AppContextProvider>
+      <AppContextProvider>
+        <body className="overflow-x-hidden">
           <Header />
           <SideBar />
           <main className="relative z-30">
@@ -56,8 +56,8 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
-        </AppContextProvider>
-      </body>
+        </body>
+      </AppContextProvider>
     </html>
   );
 }
