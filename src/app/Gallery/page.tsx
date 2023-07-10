@@ -1,5 +1,5 @@
 import React from "react";
-import { italia, sans, sarif } from "../layout";
+import { italia, sarif } from "../layout";
 import Token from "@/components/elements/Hero/Token";
 import PhotoGrid from "@/components/elements/Gallery/PhotoGrid";
 import SharkLaptop from "@/components/elements/Gallery/SharkLaptop";
