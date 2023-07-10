@@ -1,11 +1,11 @@
-import Header from "@/components/UI/Header";
-import Footer from "@/components/UI/Footer";
-import "./globals.css";
-import { Inter } from "next/font/google";
-import localFont from "next/font/local";
 import { AppContextProvider } from "@/store/AppContextProvider";
 import SideBar from "@/components/UI/Modal/SideBar";
+import Header from "@/components/UI/Header";
+import Footer from "@/components/UI/Footer";
+import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import { Metadata } from "next";
+import "./globals.css";
 
 // NEXT 13 FONTS -----------------------
 
@@ -43,8 +43,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <AppContextProvider>
-        <body className="overflow-x-hidden">
+      <body className="overflow-x-hidden">
+        <AppContextProvider>
           <Header />
           <SideBar />
           <main className="relative z-30">
@@ -56,8 +56,8 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
-        </body>
-      </AppContextProvider>
+        </AppContextProvider>
+      </body>
     </html>
   );
 }
