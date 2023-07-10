@@ -34,6 +34,31 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Centre of Excellence</title>
+        <meta
+          name="description"
+          content="Unlock the power of specialized programs in Power Engineering and AI/ML. Learn electrical power systems and develop intelligent solutions."
+        ></meta>
+        <meta
+          property="twitter:title"
+          content="Centre of Excellence - UIT RGPV Shivpuri"
+        ></meta>
+        <meta
+          property="twitter:description"
+          content="Power Engineering and AI/ML programs for a future of innovation."
+        ></meta>
+        <meta
+          property="og:title"
+          content="Centre of Excellence - UIT RGPV Shivpuri"
+        ></meta>
+        <meta
+          property="og:description"
+          content="Power Engineering and AI/ML programs for a future of innovation."
+        />
+        <meta property="og:url" content="https://coergpv.vercel.app/"></meta>
+      </head>
+
       <body className="overflow-x-hidden">
         <AppContextProvider>
           <Header />

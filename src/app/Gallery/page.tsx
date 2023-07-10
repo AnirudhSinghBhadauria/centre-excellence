@@ -12,7 +12,7 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Centre of Excellence | Gallery",
   description:
-    "The Gallery of Centre of Excellence is a vibrant exhibition space showcasing groundbreaking innovations and achievements in various fields, inspiring visitors with its immersive displays.",
+    "Experience the excellence of Power Engineering and AI/ML programs through our captivating Gallery. Explore electrical systems and intelligent solutions visually.",
 };
 
 const Gallery = () => {

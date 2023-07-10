@@ -6,7 +6,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: 'Centre of Excellence | Contact',
-  description :'If you have any queries or require further information, please do not hesitate to contact us. Our dedicated team is available to assist you and address any concerns you may have. Feel free to reach out to us, and we will be glad to provide the assistance you need.'
+  description :'Get in touch with Centre of Excellence for Power Engineering and AI/ML programs. Reach out for inquiries and connect with our knowledgeable team.'
 }
 
 const Contact = () => {

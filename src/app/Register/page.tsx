@@ -7,9 +7,9 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Centre of Excellence | Register",
-  description: 'Enroll in our courses today and unlock a world of knowledge and skills. Register to join our diverse range of courses designed to cater to learners of all levels. Benefit from expert instructors, interactive sessions, and valuable resources. Expand your horizons, collaborate with fellow learners, and embark on a transformative learning journey'
-}
-
+  description:
+    "Enroll in specialized programs at Centre of Excellence in Power Engineering and AI/ML. Register now to gain expertise in electrical systems and intelligent solutions.",
+};
 
 const Register = () => {
   return (
@@ -69,7 +69,9 @@ const Register = () => {
         <section className="flex flex-col items-start justify-between space-y-14 md:flex-row md:space-x-10 md:space-y-0 lg:space-x-14">
           <div className="flex flex-col">
             <div className="mb-[18px] flex flex-row items-center">
-              <h5 className={`${italia.className} mr-[6px] sm:mr-[16px]`}>Overview</h5>
+              <h5 className={`${italia.className} mr-[6px] sm:mr-[16px]`}>
+                Overview
+              </h5>
               <Link
                 href="/About"
                 aria-label="Know more about us"
