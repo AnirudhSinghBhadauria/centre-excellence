@@ -48,6 +48,7 @@ export default function RootLayout({
           property="twitter:description"
           content="Power Engineering and AI/ML programs for a future of innovation."
         ></meta>
+        <meta name="twitter:card" content="summary_large_image"></meta>
         <meta
           property="og:title"
           content="Centre of Excellence - UIT RGPV Shivpuri"
