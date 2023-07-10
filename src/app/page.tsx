@@ -10,6 +10,15 @@ import { descriptions } from "@/assets/data/appData";
 import Courses from "@/components/elements/Courses/Courses";
 import CourseDetails from "@/components/elements/Course_Details/CourseDetails";
 import Skater from "@/components/elements/Misc/svg/Skater";
+import { Metadata } from "next";
+
+// METADATA --------------------
+
+export const metadata: Metadata = {
+  title: "Centre of Excellence",
+  description:
+    "Centre of Excellence offers specialized programs in Power Engineering and Artificial Intelligence (AI) and Machine Learning (ML). The Power Engineering course focuses on electrical power generation, transmission, and distribution systems. The AI and ML program provides students with the necessary skills to understand and develop intelligent systems using machine learning algorithms and artificial intelligence techniques.",
+};
 
 const Home = () => {
   const {
@@ -43,7 +52,6 @@ const Home = () => {
     d_image,
     d_target,
   } = descriptions.director;
-
 
   const targetRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: targetRef });
