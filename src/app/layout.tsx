@@ -4,7 +4,16 @@ import Header from "@/components/UI/Header";
 import Footer from "@/components/UI/Footer";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
+import { Metadata } from "next";
 import "./globals.css";
+
+// METADATA --------------------
+
+export const metadata: Metadata = {
+  title: "Centre of Excellence",
+  description:
+    "Centre of Excellence offers specialized programs in Power Engineering and Artificial Intelligence (AI) and Machine Learning (ML). The Power Engineering course focuses on electrical power generation, transmission, and distribution systems. The AI and ML program provides students with the necessary skills to understand and develop intelligent systems using machine learning algorithms and artificial intelligence techniques.",
+};
 
 // NEXT 13 FONTS -----------------------
 
@@ -26,7 +35,6 @@ export const italia = localFont({
     },
   ],
 });
-
 
 export default function RootLayout({
   children,

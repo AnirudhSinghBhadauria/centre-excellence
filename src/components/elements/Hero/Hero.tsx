@@ -2,12 +2,11 @@ import { italia, sans } from "@/app/layout";
 import React from "react";
 import SvgStack from "../Misc/SvgStack";
 import Register from "../Misc/Register";
+import { Metadata } from "next";
 
 const Hero = () => {
   return (
-    <section
-      className="w-full origin-bottom bg-main pt-[104px]  primary-transition lg:pt-[160px]"
-    >
+    <section className="w-full origin-bottom bg-main pt-[104px]  primary-transition lg:pt-[160px]">
       <div className="lg:primary-grid primary-container md:flex md:flex-col lg:grid">
         {/* HIDDEN BEFORE lg */}
         <div className="group col-span-4 hidden h-fit w-fit flex-row items-start gap-5 lg:flex">
