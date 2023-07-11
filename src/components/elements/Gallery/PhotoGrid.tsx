@@ -10,7 +10,7 @@ const PhotoGrid = () => {
           <div className="relative col-span-2">
             <Image
               sizes="(min-width: 1024px) 320px, 33vw"
-              src="https://cdn.sanity.io/images/aftdl3p2/production/222eebcc97692b70581e887b7dd3e57306f89eb1-600x913.webp"
+              src="https://cdn.sanity.io/images/aftdl3p2/production/012f964b8ba3c21a3197e53c1a2b5fac3ba72f60-600x913.webp"
               className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
               width={384}
               height={585}
@@ -22,7 +22,7 @@ const PhotoGrid = () => {
           <div className="col-span-3">
             <Image
               sizes="(min-width: 1024px) 320px, 33vw"
-              src="https://cdn.sanity.io/images/aftdl3p2/production/88c6cb8fbf91406a0bf6c7e8e6916e964c299497-1600x1000.webp"
+              src="https://cdn.sanity.io/images/aftdl3p2/production/e50e67dd2dad1dd0f4568d4686d7df6632e1d061-1600x1000.webp"
               className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
               width={384}
               height={239}
@@ -34,7 +34,7 @@ const PhotoGrid = () => {
           <div className="col-span-2">
             <Image
               sizes="(min-width: 1024px) 320px, 33vw"
-              src="https://cdn.sanity.io/images/aftdl3p2/production/4a5e8282919826ef8a37bafd4b756965ce845f7c-1230x768.webp"
+              src="https://cdn.sanity.io/images/aftdl3p2/production/0f0cd27a0e66f29360a56d37f07ba221f12b0263-1230x768.webp"
               className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
               width={630}
               height={392}
@@ -52,7 +52,7 @@ const PhotoGrid = () => {
                 <div className="basis-1/2">
                   <Image
                     sizes="(min-width: 1024px) 320px, 33vw"
-                    src="https://cdn.sanity.io/images/aftdl3p2/production/d42c8ae8adb4b6499bcbe60047362da97b7bb819-1200x686.webp"
+                    src="https://cdn.sanity.io/images/aftdl3p2/production/e0d4c9752fa1c7bcbc8a2ff5277dd871af5408f7-1200x686.webp"
                     className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
                     width={640}
                     height={364}
@@ -64,7 +64,7 @@ const PhotoGrid = () => {
                 <div className="basis-1/2">
                   <Image
                     sizes="(min-width: 1024px) 320px, 33vw"
-                    src="https://cdn.sanity.io/images/aftdl3p2/production/59341d88a84e59cee0243e9f26c124ef3264b99f-1397x800.webp"
+                    src="https://cdn.sanity.io/images/aftdl3p2/production/a7bdef8ad751c1eb747e91be230e4f922738fd5e-1397x800.webp"
                     className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
                     width={640}
                     height={364}
@@ -78,7 +78,7 @@ const PhotoGrid = () => {
                 <div className="w-[83.33%]">
                   <Image
                     sizes="(min-width: 1024px) 320px, 33vw"
-                    src="https://cdn.sanity.io/images/aftdl3p2/production/910424656389a361ce95001bc98bbe2199a264d5-1775x932.webp"
+                    src="https://cdn.sanity.io/images/aftdl3p2/production/96342b96fd3650b56d244d7ad135f3ab9498ff1c-1775x932.webp"
                     className="ml-auto h-auto w-full rounded-[12px]  lg:rounded-[20px]"
                     width={800}
                     height={800}
@@ -93,7 +93,7 @@ const PhotoGrid = () => {
           <div className="col-span-2 h-full">
             <Image
               sizes="(min-width: 1024px) 320px, 33vw"
-              src="https://cdn.sanity.io/images/aftdl3p2/production/4ecfbe97fb4650aed88ecf825616df2ad795cab9-551x840.webp"
+              src="https://cdn.sanity.io/images/aftdl3p2/production/9cb57577e1ba608d7df5f02703d06a504067fbf4-551x840.webp"
               className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
               width={585}
               height={384}
@@ -106,7 +106,7 @@ const PhotoGrid = () => {
             <div>
               <Image
                 sizes="(min-width: 1024px) 320px, 33vw"
-                src="https://cdn.sanity.io/images/aftdl3p2/production/f641fbb53f668a5e1a8f054d7dc4b81167e64972-1736x969.webp"
+                src="https://cdn.sanity.io/images/aftdl3p2/production/61752f240823e24c1497c1c51d1ef099fc3ec402-1736x969.webp"
                 className="h-auto w-full rounded-[12px] lg:rounded-[20px] translate-y-[-30px] lg:translate-y-[-100px]"
                 width={800}
                 height={600}

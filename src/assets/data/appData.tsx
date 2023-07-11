@@ -6,7 +6,7 @@ export const descriptions = {
     c_linkText: "- View More",
     c_target: "_blank",
     c_image:
-      "https://cdn.sanity.io/images/aftdl3p2/production/8412814cb70c395922cbbb716944a4469bc3875a-1900x2198.webp",
+      "https://cdn.sanity.io/images/aftdl3p2/production/dda7fe4598af4091e26acc8b2e37a02630bbff50-800x920.webp",
     c_paraOne:
       "As per the directives of Government of Madhya Pradesh, University Institute of Technology, Shivpuri, a constituent institute of Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal is established in 2020. The institution presently offers undergraduate programmes in Civil Engineering, Computer Science, Electrical and Electronics Engineering and Mechanical Engineering with an intake of 60 students each. Our main thrust areas are to enhance opportunities for research in areas of high relevance to nations science and technology capabilities.Transforming the institute into a knowledge enterprise through its focus on research and development, industrial consultancy and by establishing efficient and effective mechanisms for managing innovations. This institute will continue to scale up over the next decade to build a technical institute of international repute.",
 
@@ -21,7 +21,7 @@ export const descriptions = {
     ce_linkText: "- Gallery",
     ce_target: "_self",
     ce_image:
-      "https://cdn.sanity.io/images/aftdl3p2/production/857e6a8b194d0fbbe364b2bb022b45b7e5957828-1900x2198.webp",
+      "https://cdn.sanity.io/images/aftdl3p2/production/e1cc433ebf9c57fcf80d87c3a8d0b8e81ba4a21f-800x920.webp",
     ce_paraOne:
       "UIT RGPV Shivpuri also has a Centre of Excellence that offers specialized programs in Power Engineering and Artificial Intelligence (AI) and Machine Learning (ML). The Power Engineering course focuses on electrical power generation, transmission, and distribution systems. The AI and ML program provides students with the necessary skills to understand and develop intelligent systems using machine learning algorithms and artificial intelligence techniques.",
 
@@ -36,7 +36,7 @@ export const descriptions = {
     d_linkText: "- LinkedIn",
     d_target: "_blank",
     d_image:
-      "https://cdn.sanity.io/images/aftdl3p2/production/5d8e57d22e15d5ac568b8a4dfdcfb962e8ae53a6-1920x2219.webp",
+      "https://cdn.sanity.io/images/aftdl3p2/production/f6d795a09724e64532b909e97daade5f3a58db54-800x920.webp",
     d_paraOne:
       "We are happy to announce that, the Centre of Excellence for Power Engineering and Renewable Energy (CoE-PERE) in UIT RGPV Shivpuri, developed by RGPV, with a fund of around 15 Cr has come up to make Shivpuri a hub of training in power engineering and renewable energy. Along with NPTI Shivpuri, UIT RGPV Shivpuri will impart training to students, teachers, and professionals of the power sector on the smart grid technology and power engineering. In the training, a real-time scenario can be developed for Solar energy and Photovoltaic storage system, Pumped storage, Cyber Security in Smart Grid, Fuel Cell trainer, and Smart Grid integration of all types of power generating systems. Today 10 days of training of trainers from the expert of Lucas- Nuelle, Germany, is completed. Five teachers of UIT RGPV Shivpuri participated in this training.",
 
@@ -57,7 +57,7 @@ export const courses = [
       "COE is a team of skilled knowledge workers whose mission is to provide the organisation they work for with best practices around a particular area of interest.",
     buttonText: "gallery",
     image:
-      "https://cdn.sanity.io/images/aftdl3p2/production/710bc86407cab80e01a6f796f15c1c9b182adafa-1800x1026.webp",
+      "https://cdn.sanity.io/images/aftdl3p2/production/c61a92168fea709191382cffe17fb7c6125dd323-1800x1026.webp",
   },
   {
     // className: "border-r-2 border-l-2 border-gray-300 px-[20px]",
@@ -70,7 +70,7 @@ export const courses = [
       "Its a subfield of electrical engineering that deals with the generation, transmission, and utilization of electric power, and the electrical apparatus connected to such systems.",
     buttonText: "brochure",
     image:
-      "https://cdn.sanity.io/images/aftdl3p2/production/3022c58d73b8fa40f1162c5de123281a85f81ca0-1500x1357.webp",
+      "https://cdn.sanity.io/images/aftdl3p2/production/772b47988b0c33f05e6566f9e8e572fb7d1888a9-1500x1357.webp",
   },
   {
     // className: "pl-[20px]",
@@ -83,7 +83,7 @@ export const courses = [
       "It refers to processes and algorithms that are able to simulate human intelligence, including mimicking cognitive functions such as perception and problem solving.",
     buttonText: "brochure",
     image:
-      "https://cdn.sanity.io/images/aftdl3p2/production/b829fb3c8c40b91ed2b64ab7342b5b61c4cbe5b4-2200x1224.webp",
+      "https://cdn.sanity.io/images/aftdl3p2/production/7f0b63098d7c98a7a7f927b8801c2fa935db82f0-2200x1224.webp",
   },
 ];
 
