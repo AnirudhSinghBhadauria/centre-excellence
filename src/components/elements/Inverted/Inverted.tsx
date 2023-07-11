@@ -26,7 +26,7 @@ const Inverted = ({
   paraOne,
   paraTwo,
   style,
-  target
+  target,
 }: Inverted) => {
   return (
     <motion.div style={style} className="w-full">
@@ -48,6 +48,9 @@ const Inverted = ({
               className="block h-auto 
             w-full rounded-[20px] object-cover brightness-90 filter transition-all 
             duration-1000 ease-in-out group-hover:opacity-60"
+              style={{
+                objectFit: "cover",
+              }}
               height="920"
               width="800"
             />

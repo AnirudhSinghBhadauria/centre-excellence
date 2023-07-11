@@ -110,7 +110,7 @@ const PhotoGrid = () => {
                 className="h-auto w-full rounded-[12px] lg:rounded-[20px] translate-y-[-30px] lg:translate-y-[-100px]"
                 width={800}
                 height={600}
-                alt="IGallery-Image-Eight"
+                alt="Gallery-Image-Eight"
                 priority
               />
               {/* 384 X 237 */}
