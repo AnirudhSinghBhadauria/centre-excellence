@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { Image1, Image2, Image3 } from "@/assets/data/baseImage";
 
 const PhotoGrid = () => {
   return (
@@ -14,6 +15,8 @@ const PhotoGrid = () => {
               className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
               width={384}
               height={585}
+              placeholder="blur"
+              blurDataURL={Image1}
               priority
               alt="Gallery-Image-One"
             />
@@ -26,6 +29,8 @@ const PhotoGrid = () => {
               className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
               width={384}
               height={239}
+              placeholder="blur"
+              blurDataURL={Image2}
               alt="Gallery-Image-Two"
               priority
             />
@@ -38,6 +43,8 @@ const PhotoGrid = () => {
               className="h-auto w-full rounded-[12px] lg:rounded-[20px]"
               width={630}
               height={392}
+              placeholder="blur"
+              blurDataURL={Image3}
               alt="Gallery-Image-Three"
               priority
             />
@@ -106,7 +113,7 @@ const PhotoGrid = () => {
             <div>
               <Image
                 sizes="(min-width: 1024px) 320px, 33vw"
-                src="https://cdn.sanity.io/images/aftdl3p2/production/61752f240823e24c1497c1c51d1ef099fc3ec402-1736x969.webp"
+                src="https://cdn.sanity.io/images/aftdl3p2/production/8f6b160cfa520ebb8b20bef66193cbd414f53b71-1736x969.webp"
                 className="h-auto w-full rounded-[12px] lg:rounded-[20px] translate-y-[-30px] lg:translate-y-[-100px]"
                 width={800}
                 height={600}

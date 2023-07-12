@@ -48,11 +48,9 @@ const Inverted = ({
               className="block h-auto 
             w-full rounded-[20px] object-cover brightness-90 filter transition-all 
             duration-1000 ease-in-out group-hover:opacity-60"
-              style={{
-                objectFit: "cover",
-              }}
               height="920"
               width="800"
+              priority
             />
 
             <section className="absolute flex w-full flex-row  overflow-hidden">
