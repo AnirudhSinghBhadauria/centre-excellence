@@ -24,7 +24,8 @@ const VideoContainer = ({ style }: { style?: object }) => {
               autoPlay
               muted
               src="https://cdn.sanity.io/files/aftdl3p2/production/af54f6e9d167d5afb2edd057d02cfbadfd82e076.webm"
-              poster="https://cdn.sanity.io/images/aftdl3p2/production/a53dde95781406e125f4550c7d330b2c6ff98224-1280x720.webp"
+              poster="https://cdn.sanity.io/images/aftdl3p2/production/284c0704871f3a5b5cb11478c7d30647c529a592-1280x720.webp"
+              // poster="https://cdn.sanity.io/images/aftdl3p2/production/d10ad2f5eb81465858f0741fbdad5f2971d86e36-1280x720.webp"
               playsInline
               className="h-auto w-full rounded-[20px]"
             />
@@ -36,7 +37,7 @@ const VideoContainer = ({ style }: { style?: object }) => {
               autoPlay
               muted
               src="https://cdn.sanity.io/files/aftdl3p2/production/af54f6e9d167d5afb2edd057d02cfbadfd82e076.webm"
-              poster="https://cdn.sanity.io/images/aftdl3p2/production/a53dde95781406e125f4550c7d330b2c6ff98224-1280x720.webp"
+              poster="https://cdn.sanity.io/images/aftdl3p2/production/284c0704871f3a5b5cb11478c7d30647c529a592-1280x720.webp"
               playsInline
               className="h-auto w-full rounded-[20px]"
             />
