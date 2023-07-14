@@ -42,7 +42,7 @@ export default function RootLayout({
         ></meta>
         <meta
           property="twitter:title"
-          content="Centre of Excellence - UIT RGPV Shivpuri"
+          content="Centre of Excellence"
         ></meta>
         <meta
           property="twitter:description"
@@ -51,7 +51,7 @@ export default function RootLayout({
         <meta name="twitter:card" content="summary_large_image"></meta>
         <meta
           property="og:title"
-          content="Centre of Excellence - UIT RGPV Shivpuri"
+          content="Centre of Excellence"
         ></meta>
         <meta
           property="og:description"
