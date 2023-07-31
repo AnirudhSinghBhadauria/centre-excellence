@@ -5,6 +5,7 @@ import Footer from "@/components/UI/Footer";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import dynamic from "next/dynamic";
 
 // NEXT 13 FONTS -----------------------
 
@@ -32,6 +33,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const Header = dynamic(() => import("../components/UI/Header"));
+  const SideBar = dynamic(() => import("../components/UI/Modal/SideBar"));
+  const Footer = dynamic(() => import("../components/UI/Footer"));
+
   return (
     <html lang="en">
       <head>
@@ -40,19 +45,13 @@ export default function RootLayout({
           name="description"
           content="Unlock the power of specialized programs in Power Engineering and AI/ML. Learn electrical power systems and develop intelligent solutions."
         ></meta>
-        <meta
-          property="twitter:title"
-          content="Centre of Excellence"
-        ></meta>
+        <meta property="twitter:title" content="Centre of Excellence"></meta>
         <meta
           property="twitter:description"
           content="Power Engineering and AI/ML programs for a future of innovation."
         ></meta>
         <meta name="twitter:card" content="summary_large_image"></meta>
-        <meta
-          property="og:title"
-          content="Centre of Excellence"
-        ></meta>
+        <meta property="og:title" content="Centre of Excellence"></meta>
         <meta
           property="og:description"
           content="Power Engineering and AI/ML programs for a future of innovation."
