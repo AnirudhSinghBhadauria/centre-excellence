@@ -5,10 +5,10 @@ We proudly present our Center of Excellence, offering specialized courses in Pow
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/7102f0178350021.64e65788ea951.jpg"/>
 
 <p float="left" align="center">
-  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/30645e178350021.64e657891e0c9.jpg" width="200" />
-  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3fc88d178350021.64e657891efd7.jpg" width="200" />
-  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/87a980178350021.64e6578923b1c.jpg" width="200" />
-  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/183e84178350021.64e657891a241.jpg" width="200" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/164a90178350021.64e66da3dd258.png" width="200" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/014279178350021.64e66da3dbbae.png" width="200" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f96ed8178350021.64e66da3dc745.png" width="200" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/42dc9a178350021.64e66da3dafb5.png" width="200" />
 </p>
 
 Take the first step towards success, register now for our enriching courses.
