@@ -13,11 +13,9 @@ We proudly present our Center of Excellence, offering specialized courses in Pow
 
 Take the first step towards success, register now for our enriching courses.
 
-<!-- <video width="800" height="auto">
-  <source src="video.mov" type="video/mp4">
-</video> -->
-
-https://firebasestorage.googleapis.com/v0/b/server-actions-1971f.appspot.com/o/scater.mp4?alt=media&token=0300a2e7-c830-4319-8ff8-fb6e49f94961
+<video width="800" height="auto">
+  <source src="https://firebasestorage.googleapis.com/v0/b/server-actions-1971f.appspot.com/o/scater.mp4?alt=media&token=0300a2e7-c830-4319-8ff8-fb6e49f94961" type="video/mp4">
+</video>
 
 <!--
 ## PWA (Progressive Web App)
