@@ -1,6 +1,6 @@
 # [Centre of Excellence](https://coergpv.vercel.app/)
 
-Take the first step towards success, register now for our enriching courses.
+we proudly present our Center of Excellence, offering specialized courses in Power Engineering and Artificial Intelligence (AI) and Machine Learning (ML). Join us on this journey of knowledge, innovation, and growth as we strive to become a globally renowned technical institute.
 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/7102f0178350021.64e65788ea951.jpg"/>
 
@@ -11,13 +11,7 @@ Take the first step towards success, register now for our enriching courses.
   <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/8ed2d9168517879.643e9ddd7c43c.jpg" width="200" />
 </p>
 
-## Features
-
-- Official Repo of Centre of Excellence - UIT RGPV Shivpuri.
-- Information of all the courses offered in COE.
-- Details about the courses.
-- Gallery of Laboratories.
-- Student Registration.
+Take the first step towards success, register now for our enriching courses.
 
 ## PWA (Progressive Web App)
 
@@ -44,7 +38,7 @@ The files inside the pages directory can be used to define most common patterns.
 
 I kindly ask you to take a moment to explore a gallery showcasing the Center of Excellence.
 
-<a target='_blank' href="https://www.behance.net/gallery/168517879/Everything-Shivpuri">GALLERY</a>
+<a target='_blank' href="https://www.behance.net/gallery/178350021/Centre-of-Excellence">GALLERY</a>
 
 ## Login
 
@@ -56,9 +50,8 @@ To add your business to the **Everything Shivpuri**, please note that you must f
 
 ## [About](https://coergpv.vercel.app/Abouthttps://coergpv.vercel.app/About)
 
-**About** We create future, technocrats,
-UIT Shivpuri where we're at ,nurturing skills and aristocrats
-
+"We create future, technocrats,
+UIT Shivpuri where we're at ,nurturing skills and aristocrats"
 Know more about our institute UIT RGPV Shivpuri.
 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/d70e28178350021.64e65789095cb.png">
