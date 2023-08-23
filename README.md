@@ -4,6 +4,8 @@ We proudly present our Center of Excellence, offering specialized courses in Pow
 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/7102f0178350021.64e65788ea951.jpg"/>
 
+Behold the mobile perspective of the Center of Excellence.
+
 <p float="left" align="center">
   <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/164a90178350021.64e66da3dd258.png" width="200" />
   <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/014279178350021.64e66da3dbbae.png" width="200" />
@@ -12,7 +14,6 @@ We proudly present our Center of Excellence, offering specialized courses in Pow
 </p>
 
 Take the first step towards success, register now for our enriching courses.
-
 
 ## [Register](https://coergpv.vercel.app/Register)
 
@@ -39,6 +40,15 @@ UIT Shivpuri where we're at ,nurturing skills and aristocrats"
 Know more about our institute UIT RGPV Shivpuri.
 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/d70e28178350021.64e65789095cb.png">
+
+Have a look at some mobile views of our page
+
+<p float="left" align="center">
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9761aa178350021.64e67c6860988.png" width="200" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/65ea6c178350021.64e67c685e3d1.png" width="200" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/09ee2f178350021.64e67c685f000.png" width="200" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4c88bf178350021.64e67c685fbce.png" width="200" />
+</p>
 
 ## [Contact Us](https://coergpv.vercel.app/Contact)
 
