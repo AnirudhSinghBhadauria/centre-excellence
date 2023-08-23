@@ -35,6 +35,14 @@ The files inside the pages directory can be used to define most common patterns.
   <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ba7591168517879.643ea14f432cb.png" width="400" />
 </p> -->
 
+## [Register](https://coergpv.vercel.app/Register)
+
+Your journey towards academic and technological brilliance starts here. Register today and be a part of a dynamic community striving for global recognition in technical education and research.
+
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/4c1444178350021.64e6578911a61.png">
+
+<a target='_blank' href="https://coergpv.vercel.app/Register">Click me to Register</a>
+
 ## [Gallery](https://coergpv.vercel.app/Gallery)
 
 I respectfully invite you to spare a moment and delve into a gallery that highlights the Center of Excellence. Your exploration will provide valuable insights into our focused initiatives and exceptional offerings in various fields.
@@ -85,6 +93,4 @@ Didn't Got what you were lookin for? Maybe we missed it, but don't worry you can
 
 ## Conclusion
 
-**Everything Shivpuri**, users can browse through a wide range of establishments including food cafes, restaurants, garment shops, and more. They can view basic details such as phone numbers and locations to help them plan their visits. Additionally, we have an "Add Businesses" section that allows users to suggest new businesses to be featured on our platform. However, users must log in first to make any submissions.
-
-We are committed to providing a user-friendly experience and constantly strive to improve our platform. Thank you for visiting Everything Shivpuri, and we hope you enjoy browsing through our featured establishments.
+In conclusion, the **Centre of Excellence** UIT RGPV Shivpuri is a valuable resource for students interested in pursuing academic programs and internships in specialized fields such as Artificial Intelligence - Machine Learning and Power Engineering. This page features a comprehensive overview of the courses offered, as well as detailed descriptions and graphics showcasing the labs and equipment available to students. The website's user-friendly design and intuitive navigation make it easy for students to access the information they need to make informed decisions about their academic and professional goals. Overall, the Centre of Excellence website at UIT RGPV Shivpuri serves as a testament to the institution's commitment to providing students with state-of-the-art resources and a high-quality learning environment.
