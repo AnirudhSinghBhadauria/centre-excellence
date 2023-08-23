@@ -1,14 +1,14 @@
 # [Centre of Excellence](https://coergpv.vercel.app/)
 
-we proudly present our Center of Excellence, offering specialized courses in Power Engineering and Artificial Intelligence (AI) and Machine Learning (ML). Join us on this journey of knowledge, innovation, and growth as we strive to become a globally renowned technical institute.
+We proudly present our Center of Excellence, offering specialized courses in Power Engineering and Artificial Intelligence (AI) and Machine Learning (ML). Join us on this journey of knowledge, innovation, and growth as we strive to become a globally renowned technical institute.
 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/7102f0178350021.64e65788ea951.jpg"/>
 
 <p float="left" align="center">
-  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/fbcb3b168517879.643e9c35a68eb.png" width="200" />
-  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/ccd4df168517879.643e9c359718c.png" width="200" />
-  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/8cb2ba168517879.643e9c35a3ddd.png" width="200" />
-  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/8ed2d9168517879.643e9ddd7c43c.jpg" width="200" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/30645e178350021.64e657891e0c9.jpg" width="200" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3fc88d178350021.64e657891efd7.jpg" width="200" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/87a980178350021.64e6578923b1c.jpg" width="200" />
+  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/183e84178350021.64e657891a241.jpg" width="200" />
 </p>
 
 Take the first step towards success, register now for our enriching courses.
@@ -41,7 +41,7 @@ I respectfully invite you to spare a moment and delve into a gallery that highli
 
 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/1b0c86178350021.64e6578916708.png">
 
-<a target='_blank' href="https://www.behance.net/gallery/178350021/Centre-of-Excellence">GALLERY</a>
+<a target='_blank' href="https://www.behance.net/gallery/178350021/Centre-of-Excellence">Click me to see gallery on Behance</a>
 
 <!-- ## Login
 
