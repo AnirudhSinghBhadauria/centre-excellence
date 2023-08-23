@@ -51,6 +51,8 @@ I respectfully invite you to spare a moment and delve into a gallery that highli
 
 <a target='_blank' href="https://www.behance.net/gallery/178350021/Centre-of-Excellence">Click me to see gallery on Behance</a>
 
+Snapshots and Videos of page are available on Behance also.
+
 <!-- ## Login
 
 To add your business to the **Everything Shivpuri**, please note that you must first login using their Google account. Once you have done so, you can access the **"Add Business"** section and provide the necessary details about your business, including its name, address, contact information, and other relevant information. We encourage you to take advantage of this feature to promote your business and help other users discover the many opportunities and resources available in Shivpuri.
