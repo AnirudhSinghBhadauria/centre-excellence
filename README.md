@@ -13,6 +13,12 @@ We proudly present our Center of Excellence, offering specialized courses in Pow
 
 Take the first step towards success, register now for our enriching courses.
 
+<!-- <video width="800" height="auto">
+  <source src="video.mov" type="video/mp4">
+</video> -->
+
+https://firebasestorage.googleapis.com/v0/b/server-actions-1971f.appspot.com/o/scater.mp4?alt=media&token=0300a2e7-c830-4319-8ff8-fb6e49f94961
+
 <!--
 ## PWA (Progressive Web App)
 
@@ -51,7 +57,7 @@ I respectfully invite you to spare a moment and delve into a gallery that highli
 
 <a target='_blank' href="https://www.behance.net/gallery/178350021/Centre-of-Excellence">Click me to see gallery on Behance</a>
 
-Snapshots and Videos of page are available on Behance also.
+Snapshots and Videos of page are available on Behance.
 
 <!-- ## Login
 
