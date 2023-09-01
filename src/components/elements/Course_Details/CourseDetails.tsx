@@ -102,6 +102,75 @@ const CourseDetails = () => {
                 <MovingArrow type="eight" background={false} />
               </Link>
             </div>
+
+            <p className={`${italia.className} quote`}>
+              Stay Tuned for More from Us...
+            </p>
+
+            <div
+              className={`${italia.className} pt-10 sm:my-10 flex items-center sm:items-stretch flex-col gap-4`}
+            >
+              <div className="flex flex-col gap-4 sm:flex-row">
+                <Link
+                  href="https://cdn.sanity.io/files/aftdl3p2/production/cc771d8cd27f4bbc69b3fc86278a82b48ee55559.pdf"
+                  aria-label="Invitation for Practical Sessions at the Center of Excellence"
+                  target="_blank"
+                  className="detail-box"
+                >
+                  <p>
+                    Invitation for Practical Sessions at the Center of
+                    Excellence, University Institute of Technology, RGPV,
+                    Shivpuri
+                  </p>
+                </Link>
+                <Link            href="https://cdn.sanity.io/files/aftdl3p2/production/ed91932545257ade66b22ad4bcb38de8e6fa73ba.pdf"
+                  aria-label="Official Directive Regarding Practical Training at the Center of Excellence"
+                  target="_blank"
+                  className="detail-box"
+                >
+                  <p>
+                    Official Directive Regarding Practical Training at the
+                    Center of Excellence,University Institute of Technology,
+                    RGPV, Shivpuri
+                  </p>
+                </Link>
+              </div>
+              <div className="flex flex-col gap-4 sm:flex-row">
+                <Link
+                  href="https://cdn.sanity.io/files/aftdl3p2/production/61435544f13f1b92b0ca1749157fc05744b46283.pdf"
+                  aria-label="Proposed Laboratories for Core Courses within COE"
+                  target="_blank"
+                  className="detail-box"
+                >
+                  <p>
+                    Proposed Laboratories for Core Courses within the Center of
+                    Excellence for B.Tech/M.Tech Programs.
+                  </p>
+                </Link>
+                <Link
+                  href="https://cdn.sanity.io/files/aftdl3p2/production/ee8b734ff08919b7a78b42fc0e75ee15577b6949.pdf"
+                  aria-label="Proposed Laboratory Facilities for Elective Courses"
+                  target="_blank"
+                  className="detail-box"
+                >
+                  <p>
+                    Proposed Laboratory Facilities for Elective Courses within
+                    the Center of Excellence for B.Tech/M.Tech Programs.
+                  </p>
+                </Link>
+              </div>
+            </div>
+            <div className="my-20 flex flex-row justify-end">
+              <Link
+                className="group flex flex-row gap-2"
+                download
+                href="https://cdn.sanity.io/files/aftdl3p2/production/efa373d3436d14c2ee8b1a999dbb8738c036d8f2.pptx"
+                aria-label="Poster- Centre of Excellence"
+              >
+                <Outline ifBlackBack={true}>get COE Presentation</Outline>
+                <MovingArrow type="eight" background={false} />
+              </Link>
+            </div>
           </div>
         </section>
         <div className="mt-10 sm:mt-16 flex w-full flex-row justify-center md:justify-end lg:mt-14 xl:mt-12 2xl:mt-9">

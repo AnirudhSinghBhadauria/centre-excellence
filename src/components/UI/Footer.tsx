@@ -123,9 +123,9 @@ const Footer = ({ style }: { style?: object }) => {
 
           <nav className="flex flex-row items-center gap-10">
             <Line />
-            <p className={`${italia.className} footer-text uppercase`}>
+            {/* <p className={`${italia.className} footer-text uppercase`}>
               COE/2023
-            </p>
+            </p> */}
             <Link
               className={`${italia.className} footer-text`}
               href="https://www.linkedin.com/in/anirudhsinghbhadauria/"
@@ -133,6 +133,14 @@ const Footer = ({ style }: { style?: object }) => {
               target="_blank"
             >
               Developer
+            </Link>
+            <Link
+              className={`${italia.className} footer-text`}
+              href="https://www.linkedin.com/company/avatar4/"
+              aria-label="Curator's Profile"
+              target="_blank"
+            >
+              Curator
             </Link>
             <Line />
           </nav>

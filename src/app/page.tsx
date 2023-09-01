@@ -49,7 +49,7 @@ const Home = () => {
 
   const scaleAndTranslate = useTransform(
     scrollYProgress,
-    [0.05, 0.11],
+    [0.05, 0.1015],
     [
       "scale(1) translateX(0%) translateY(0%)",
       "scale(1.5) translateX(-17.38%) translateY(55.25%)",
@@ -59,7 +59,7 @@ const Home = () => {
 
   const bgColor = useTransform(
     scrollYProgress,
-    [0.45, 0.53],
+    [0.43, 0.48],
     ["#EEEAEA", "#FFFFFF"]
   );
 
