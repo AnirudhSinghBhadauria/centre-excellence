@@ -66,12 +66,12 @@ const Home = () => {
   const moveSkater = useTransform(
     scrollYProgress,
     [0.4, 0.65],
-    ["translateX(-100%)", "translateX(160%)"]
+    ["translateX(-90%)", "translateX(170%)"]
   );
 
   const moveSkaterMobile = useTransform(
     scrollYProgress,
-    [0.3, 0.55],
+    [0.24, 0.53],
     // ["translateX(-110%)", "translateX(120%)"]
     ["translateX(-100%)", "translateX(200%)"]
   );
